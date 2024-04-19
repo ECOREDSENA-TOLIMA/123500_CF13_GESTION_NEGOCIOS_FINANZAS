@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE_DEL_COMPONENTE_FORMATIVO',
-    descripcionCurso: 'BREVE_DESCRIPCIÓN',
+    componenteFormativo: 'Herramientas de análisis en el mercadeo',
+    descripcionCurso:
+      'El mercadeo, cumple con las estrategias de necesidades específicas del cliente, se debe reducir el comportamiento de cambio del cliente hacia otras marcas, para ello, el líder de mercadeo puede jugar con las diferentes herramientas para cautivar y retener el consumidor, la publicidad animar e incentivar a probar algo innovador a través de diferentes contenidos que lo impacten.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,28 +32,35 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Mercadeo',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: 'Variables de análisis',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Matrices de soporte',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Análisis del entorno',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Estrategias de <em>marketing<em>',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Herramientas de recolección de información',
+            hash: 't_1_5',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [

@@ -8,6 +8,10 @@
         span
           i.fas.fa-info
       h1 Introducción
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Para reconocer los principales conceptos que serán abordados en el desarrollo del componente formativo, se detallan elementos que permiten reconocer estrategias de mercadeo de acuerdo con objetivos comerciales, es así como se invita a observar la siguiente introducción.
     
     figure.mb-5(data-aos="zoom-in")
       .video
