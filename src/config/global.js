@@ -110,28 +110,96 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      link: 'Link_complementario',
+      tema: 'Estrategias de <em>marketing</em>',
+      referencia:
+        'De Toro, J. y Villanueva, J. (2018) <em>Marketing estratégico</em>. Editorial Alfaomega, IESE, EUNSA',
+      tipo: 'Libro',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/marketing-estrategico?location=2',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Análisis del entorno',
+      referencia: 'Paris, J. (2018) Marketing estratégico. Editorial Alfaomega',
+      tipo: 'Libro',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/marketing-estrategico-desde-el-paradigma-esencial?location=12',
     },
   ],
   glosario: [
     {
-      termino: 'Termino_glosario',
-      significado: 'Significado_glosario',
+      termino: 'Comercio',
+      significado:
+        'existe gracias a la división del trabajo, la especialización y a las diferentes fuentes de los recursos, dado que la mayoría de las personas se centran en un pequeño aspecto de la producción, necesitan comercializar con otros para adquirir bienes y servicios diferentes a los que producen. ',
+    },
+    {
+      termino: 'Demanda',
+      significado:
+        'es la cantidad de productos y servicios que se intentan comprar en un mercado específico. A mayor precio, menor demanda.  La demanda puede estar basada tanto en necesidades como en deseo de bienes no esenciales, pero en ambos casos influye la capacidad de pago del comprador.',
+    },
+    {
+      termino: 'Globalización económica',
+      significado:
+        'es el resultado de la innovación humana y el progreso tecnológico. Se refiere a la creciente integración de las economías de todo el mundo, especialmente a través del comercio y los flujos financieros. ',
+    },
+    {
+      termino: 'Macroeconomía',
+      significado:
+        'se encarga de estudiar los indicadores globales de la economía mediante el análisis de las variables agregadas, como el monto total de bienes y servicios producidos, el total de los ingresos, el nivel de empleo, de recursos productivos, la balanza de pagos, el tipo de cambio y el comportamiento general de los precios.',
+    },
+    {
+      termino: 'Mayorista',
+      significado:
+        'hace referencia a la persona o empresa que se dedica a la compra y/o venta de productos por lotes, o en cantidades significativas. Es un intermediario entre la fábrica o importador y el minorista.',
+    },
+    {
+      termino: 'Microeconomía',
+      significado:
+        'estudia el comportamiento económico de agentes individuales, como consumidores, empresas, trabajadores e inversores.',
+    },
+    {
+      termino: 'Minorista',
+      significado:
+        'es la persona o empresa que vende productos al detal, es decir, por unidades. Es el enlace con el consumidor final.',
+    },
+    {
+      termino: 'Oferta',
+      significado:
+        'es la cantidad de productos y servicios disponibles en un mercado específico. A mayor precio, mayor oferta.  Cantidad de bienes que los productores están dispuestos a colocar en el mercado para la venta en un período determinado.',
     },
   ],
   referencias: [
     {
-      referencia: 'Nombre_referencias',
-      link: 'Link_referencias',
+      referencia:
+        'Asociación Nacional de Industriales. ANDI. Balance 2021 y perspectivas 2022. Disponible en:',
+      link:
+        'http://www.andi.com.co/uploads/Balance%202021%20y%20Perspectivas%202022%20-%20ANDI%20BMM.pdf',
+    },
+    {
+      referencia:
+        'Banco de la República de Colombia (2022). Variables macroeconómicas. Disponible en:',
+      link: 'https://www.banrep.gov.co/es',
+    },
+    {
+      referencia:
+        'Banco Mundial (2022). Exportaciones e importaciones actuales. Disponible en',
+      link: 'https://www.banrep.gov.co/es',
+    },
+    {
+      referencia:
+        'Departamento Administrativo Nacional de Estadística. DANE (2020). Encuesta de Micro negocios. Disponible en:',
+      link:
+        'https://microdatos.dane.gov.co/index.php/catalog/712/get_microdata',
+    },
+    {
+      referencia:
+        'Departamento Administrativo Nacional de Estadística. DANE (2021). Resultados conteo unidades económicas. Disponible en:',
+      link:
+        'https://www.dane.gov.co/index.php/estadisticas-por-tema/comercio-interno/censo-economico-de-colombia/conteo-de-unidades-economicas-2021',
+    },
+    {
+      referencia:
+        'Organización Mundial de Comercio (2020). OMC. Estadísticas comerciales. Disponible en:',
+      link: 'https://www.wto.org/indexsp.htm',
     },
   ],
   creditos: [

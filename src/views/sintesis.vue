@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5(data-aos="fade-right") A_continuación_se_muestra_un_mapa_conceptual
+    p.mb-5(data-aos="fade-right") El propósito de la administración, como se ha mencionado entre líneas, consiste en unificar los esfuerzos de diferentes colaboradores en una organización para lograr un objetivo común. En la siguiente figura, se puede apreciar cada una de las temáticas desarrolladas en el componente.
 
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")
