@@ -1636,7 +1636,185 @@
       .col-xl-12
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2.my-5 1.5 Riesgo empresarial
-      
+    
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img87.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Las herramientas de recolección de información son los instrumentos utilizados para recoger datos, se refiere a un cuestionario en papel o un sistema de entrevista asistido en línea. Los estudios de casos, las listas de verificación, las entrevistas, la observación a veces y las encuestas o cuestionarios son herramientas que se utilizan para recopilar datos. Es importante decidir las herramientas para recolectar los datos porque la investigación se lleva a cabo de diferentes maneras y con diferentes propósitos. El objetivo detrás de la recolección de datos es capturar evidencia de calidad que permita que el análisis conduzca a la formulación de respuestas convincentes y creíbles a las preguntas planteadas.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Para la recolección de los datos que fundamenta las decisiones del negocio, ha de utilizar las diferentes técnicas cualitativas y cuantitativas que le permitan comprender el mercado, las expectativas de los clientes y la cantidad de clientes potenciales. De las técnicas cualitativas el instrumento es la entrevista, en cuanto a las técnicas cuantitativas el instrumento de recolección de datos es el cuestionario. A continuación, se describen cada uno de estos instrumentos que se utilizan para el estudio de mercado:
+    
+    .row.mb-5.ps-2
+      .h4.mb-0.mx-5 Entrevistas
+      .col-lg-4.bg-color-1.px-4.py-4
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Hablar de entrevistas es comprender su naturaleza, partiendo del grado de libertad, es decir la dirección en cuanto al tema general y las preguntas precisas que formula el entrevistador. La otra naturaleza es el nivel de profundidad la cual comprende los detalles que se desean saber y que tendrán impacto en los factores del número de entrevistas, duración y la interpretación de los resultados.
+        p La investigación de mercado cualitativa se basa en métodos específicos como entrevistas individuales, grupos focales y antropología. Las técnicas cuantitativas están asociadas a los cuestionarios cuantitativos, y su resultado son encuestas y sondeos online. De esta manera se reconoce que tipo de entrevistas se pueden presentar, al igual las preguntas que se desarrollan según la clasificación de estas, observa:
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10.desktop
+        figure
+          img(src='@/assets/curso/temas/tema1/img88.svg', alt='Imagen decorativa')
+      .col-lg-10.movil
+        figure
+          img(src='@/assets/curso/temas/tema1/img88-1.svg', alt='Imagen decorativa')
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Dentro de las entrevistas cerradas se encuentra la entrevista semiestructurada, la cual forma la base de la investigación cualitativa en la investigación de mercado. Se utiliza este procedimiento internamente como base para nuestras entrevistas. De hecho, es esencial recolectar los temas y preguntas clave relacionados con el problema identificado por la empresa para recoger comentarios relevantes de los entrevistados. Se basan en muestras pequeñas que oscilan entre 15 y 30 ya que requieren mucha disciplina para analizar los datos a lo largo del tiempo. 
+    
+    .row.mb-5.ps-2
+      .h4.mb-0.mx-5 Ventajas de la entrevista semiestructurada
+      .col-lg-4.bg-color-1.px-4.py-4
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10        
+        .bg4.p-5
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-3
+              figure  
+                img(src='@/assets/curso/temas/tema1/img89.svg', alt='Imagen decorativa')
+            .col-lg-7
+              ul.lista-ul
+                li
+                  i.fas.fa-check
+                  | Flexibilidad en la respuesta del entrevistado
+                li
+                  i.fas.fa-check
+                  | Mantiene el rumbo durante la entrevista para no perder el foco del tema
+                li
+                  i.fas.fa-check
+                  | Preparación del entrevistador con fines de colaborar al encuestado.
+                li
+                  i.fas.fa-check
+                  | Personalización y retroalimentación
+
+    .row.mb-5.ps-2
+      .h4.mb-0.mx-5 Temas y preguntas de las entrevistas
+      .col-lg-4.bg-color-1.px-4.py-4
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6
+        p Es esencial evitar cualquier juicio para no influir en las respuestas de los encuestados, ya sea mediante la formulación de preguntas, el acuerdo o desacuerdo de una afirmación del encuestado o mediante gestos que induzcan a estar de acuerdo o desacuerdo. Tenga presente, personalizar las preguntas, esto permite a los encuestados aprovechar su experiencia al responder las preguntas. Estamos tratando de entender su comportamiento y no poner a prueba sus conocimientos teóricos.
+        p Importante empezar la entrevista con las preguntas generales del tema para que el entrevistado identifique el norte o rumbo que se desarrollará con las preguntas y asimismo ponerlo en contexto con la entrevista. Luego, vendrán las preguntas sobre aspectos más detallados en donde se quiere precisar de la información con más esmero.
+      .col-lg-6
+        figure  
+          img(src='@/assets/curso/temas/tema1/img90.png', alt='Imagen decorativa')
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Las entrevistas se realizan con un fin particular, que en el ámbito de mercadeo es asegurar que no haya riesgos de ninguna índole para la empresa y si aparecen puedan manejarse exitosamente. Por ello, un ejemplo de entrevista puede ser la que realiza una empresa que desea mover su punto de venta o instalarse en una nueva localización. Por tanto, entreviste a las personas de la zona donde se desea trasladar, si el sector es afín a su marca, es decir, realizar un estudio previamente a la decisión que vaya a tomar.
+
+    .row.mb-5.ps-2
+      .h4.mb-0.mx-5 Encuestas
+      .col-lg-4.bg-color-1.px-4.py-4
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6
+        figure  
+          img(src='@/assets/curso/temas/tema1/img91.png', alt='Imagen decorativa')
+
+      .col-lg-6
+        p La investigación de mercado generalmente es más cuantitativa, por lo que preparar un buen cuestionario para la investigación de mercado cuantitativa representa un desafío y requerirá de método, algo de trabajo y que el encuestado tenga la experticia para responder a las preguntas formuladas en el cuestionario. La encuesta puede ofrecer datos sobre comportamientos que se puedan cuantificar. Las encuestas se aplican también para medir la satisfacción del cliente y la afinidad con la marca.
+        .cajon.color-primario.p-4.mb-4
+          p La encuesta de mercado es la investigación y el análisis de la encuesta del mercado para un producto o servicio en particular que incluye la investigación de las inclinaciones del cliente. Un estudio de las diversas capacidades de los clientes, como los atributos de inversión y el potencial de compra. Las encuestas de mercado son herramientas para recopilar directamente la retroalimentación del público objetivo para comprender sus características, expectativas y requisitos.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p La mayoría de las empresas confiesan que las encuestas de mercado ayudan enormemente en la recolección de información ya que estimulan el proceso de investigación de mercado. Además, los comentarios recibidos de estas encuestas pueden contribuir a la comercialización del producto y la mejora de funciones. Las encuestas de mercado recolectan datos sobre un mercado objetivo, como tendencias de precios, requisitos de los clientes, análisis de la competencia y otros detalles similares.
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6
+        p Para el diligenciamiento de la encuesta se hace necesario solicitar a las personas de su colaboración para que respondan a las preguntas allí planteadas, esto también es un foco para administrar la encuesta, la cual puede ser entregada a las personas en línea, ya que es la herramienta más común y de mayor alcance en la era digital. Se invita a través de un enlace con la encuesta y un mensaje de impacto que se envía a través de las redes sociales o de manera más formal mediante mensajería instantánea.
+        p La mayoría de los servicios de encuestas en línea tienen tablas con gráficos, promedios e intervalos confiables. Esto es más que suficiente para cubrir la necesidad de investigación de mercado de la empresa. 
+
+      .col-lg-6
+        figure  
+          img(src='@/assets/curso/temas/tema1/img92.png', alt='Imagen decorativa')
+
+    .row.mb-5.ps-2
+      .h4.mb-0.mx-5 Preguntas de la encuesta
+      .col-lg-4.bg-color-1.px-4.py-4
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p El creador de la encuesta puede decidir el tipo de preguntas a utilizar, iniciando con la redacción de preguntas cerradas y sencillas de analizar, asegurándose que no sean demasiados extensas para el encuestado ya que se busca obtener estadísticas y resultados cuantificables en comparación con las cualitativas que tienden a ser abiertas y difíciles de analizar. Estas preguntas son fáciles de responder para los encuestados debido a su estructura cerrada, se puede hacer una cantidad considerable de preguntas sin tener que preocuparse de si los encuestados se irritan o no. Las preguntas cuantitativas pueden comenzar con:
+    
+    
+    .row.mb-5
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-acento-botones.bg2.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema1/img93.png', alt='Texto que describa la imagen')
+
+          h3.text-center ¿Qué?
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-acento-botones.bg2.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema1/img94.png', alt='Texto que describa la imagen')
+
+          h3.text-center ¿Cómo?
+
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0
+        .tarjeta--boton.color-acento-botones.bg2.text-white--hover.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema1/img95.png', alt='Texto que describa la imagen')
+
+          h3.text-center ¿Cuántos?
+
+      .col-sm-6.col-lg-3
+        .tarjeta--boton.color-acento-botones.bg2.p-4
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/temas/tema1/img96.png', alt='Imagen decorativa')
+
+          h3.text-center ¿Cuáles?
+    .row.mb-5.ps-2
+      .h4.mb-0.mx-5 Tipos de encuestas
+      .col-lg-4.bg-color-1.px-4.py-4
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Las empresas utilizan varios tipos de encuestas de mercado para recolectar datos según el objetivo de su investigación de mercado. La información recopilada se puede utilizar para estudiar varios aspectos del mercado para abordar temas como el momento adecuado para lanzar el producto o servicio, comprender las tendencias del mercado, medir la lealtad del cliente, estudiar a sus competidores y muchos más. Seguidamente, se relacionan los tipos de encuestas más comunes que realizan las empresas exitosas del mundo:
+
+    ImagenInfograficaB.color-secundario.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+          figcaption FALTA COMPONENTE POR DESARROLLAR, EL ARCHIVO DI DE POWER POINT NO  ABRE
+      div(x="20%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
+        .h5.mb-2 titulo
+        p Lorem ipsum dolor Curabitur vestibulum tortor quis nisi
+
+
+    .row.justify-content-center.mb-5
+      .col-8.BG01.p-2
+        .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
+          h5 Tabla 10
+          span #[i Modelo encuesta ]
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+          figure
+            img(src='@/assets/curso/temas/tema1/tabla10.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Las anteriores preguntas giran en torno a los objetivos de la empresa y la finalidad que representa la encuesta, ya que todas las actividades de marketing deben girar entorno a la adquisición de clientes. La recolección de datos entrega la información necesaria sobre las capacidades del mercado para atraer nuevos servicios o productos para desarrollarlos en función del cliente.
+        p Es fundamental entender los objetivos que se pueden lograr con cada una de las metodologías o dicho en otras palabras, antes de comenzar la investigación de mercado, debe ahondar en el espíritu de ambos enfoques para elegir el que mejor se adapte a la situación.
+
 </template>
 
 <script>
