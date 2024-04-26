@@ -185,7 +185,7 @@
           .col-lg-10
             h4 #[i Marketing] de contenido 
             h4 (blogs, videos, publicaciones en redes sociales)
-            p El #[i marketing] de contenidos se considera un tipo de marketing digital, desarrollado a través de publicación de contenido en diferentes formas para crear conciencia de marca y fomentar las relaciones con los clientes. 
+            p El #[i marketing] de contenidos se considera un tipo de #[i marketing] digital, desarrollado a través de publicación de contenido en diferentes formas para crear conciencia de marca y fomentar las relaciones con los clientes. 
           .col-lg-2
             figure
               img(src='@/assets/curso/temas/tema1/img15.svg', alt='Imagen decorativa')
@@ -380,43 +380,45 @@
 
         p Observa los pasos desarrollar la matriz EFE:
 
-    PasosA.color-acento-contenido.mb-5(tipo="n")
-      .row(titulo="")
-        .col-md-6.mb-4.mb-md-0
-          h4 Identifique los factores externos clave
-          p Puede ser mediante la herramienta PEST o una auditoría.
-        .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema1/img26.png', alt='Imagen decorativa')
-      .row(titulo="")
-        .col-md-6
-          figure
-            img(src='@/assets/curso/temas/tema1/img27.png', alt='Imagen decorativa')
-        .col-md-6.mb-4.mb-md-0
-          h4 Asigne a cada factor una ponderación o peso
-          p la estimación indica la importancia de este factor en la industria para alcanzar el éxito. 
-      .row(titulo="")
-        .col-md-6.mb-4.mb-md-0
-          h4 Asigne una puntuación de 1 a 4 para cada factor externo
-          p Siendo 4 la calificación más alta y 1 la calificación más mala.
-        .col-md-6
-          figure
-            img(src='@/assets/curso/temas/tema1/img28.png', alt='Imagen decorativa')
-      .row(titulo="")
-        .col-md-6
-          figure
-            img(src='@/assets/curso/temas/tema1/img29.png', alt='Imagen decorativa')
-        .col-md-6.mb-4.mb-md-0
-          h4 Combine las ponderaciones 
-          p Con las calificaciones a través de una multiplicación entre el peso de cada factor por su calificación para establecer la puntuación ponderada.
-      .row(titulo="")
-        .col-md-6.mb-4.mb-md-0.cblanco
-          h4 Suma con las puntuaciones de ponderaciones
-          p De cada factor y establezca la ponderación total de la empresa.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        PasosA.color-acento-contenido.mb-5(tipo="n")
+          .row(titulo="")
+            .col-md-6.mb-4.mb-md-0
+              h4 Identifique los factores externos clave
+              p Puede ser mediante la herramienta PEST o una auditoría.
+            .col-md-6
+                figure
+                  img(src='@/assets/curso/temas/tema1/img26.png', alt='Imagen decorativa')
+          .row(titulo="")
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img27.png', alt='Imagen decorativa')
+            .col-md-6.mb-4.mb-md-0
+              h4 Asigne a cada factor una ponderación o peso
+              p la estimación indica la importancia de este factor en la industria para alcanzar el éxito. 
+          .row(titulo="")
+            .col-md-6.mb-4.mb-md-0
+              h4 Asigne una puntuación de 1 a 4 para cada factor externo
+              p Siendo 4 la calificación más alta y 1 la calificación más mala.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img28.png', alt='Imagen decorativa')
+          .row(titulo="")
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img29.png', alt='Imagen decorativa')
+            .col-md-6.mb-4.mb-md-0
+              h4 Combine las ponderaciones 
+              p Con las calificaciones a través de una multiplicación entre el peso de cada factor por su calificación para establecer la puntuación ponderada.
+          .row(titulo="")
+            .col-md-6.mb-4.mb-md-0.cblanco
+              h4 Suma con las puntuaciones de ponderaciones
+              p De cada factor y establezca la ponderación total de la empresa.
 
-        .col-md-6
-          figure
-            img(src='@/assets/curso/temas/tema1/img30.png', alt='Imagen decorativa')
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img30.png', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p Para comprenderla se tiene presente como la puntuación ponderada límite posible es 4,0 y la más baja es 1,0. Si realizada la práctica su ponderación total es de 4,0, el resultado es que la empresa está haciendo un buen trabajo con las oportunidades existentes en la industria, está haciendo efectivo con las estrategias que existen aprovechando la oportunidad. Si en la práctica la ponderación total es de 1,0 quiere decir que las estrategias de la empresa no evitan ni bloquean los riesgos externos y adicional a ello, ha desperdiciado las oportunidades del contexto externo.
@@ -709,6 +711,7 @@
     .row.mb-4.ps-2    
       .h4.mb-0.mx-3 Liderazgo en el mercado 
       .col-lg-4.bg-color-1.px-4.py-3
+    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p Se concentran los principales recursos recibiendo máxima prioridad.
@@ -758,21 +761,21 @@
             figure
               img(src='@/assets/curso/temas/tema1/img58.png', alt='') 
           .tarjeta.bg2.p-3(x="16%" y="22%" numero="+")
-            p Liderazgo tecnológico protegido.
+            p #[b Favorable:] Goza de ventajas competitivas en varios segmentos del mercado para tener la libertad de moverse en el mercado como grandes líderes de sus negocios.
           .tarjeta.bg2.p-3(x="73.5%" y="24%" numero="+")
-            p La participación de mercado es estable, tiene la libertad de elegir estrategias y accionar sin que el mercado se vea en riesgo o amenazado por el asecho de los competidores.
+            p #[b Sostenible:] La posición en el mercado general es pequeña o de nicho, ya sea geográfica o definida por producto.
           .tarjeta.bg2.p-3(x="92%" y="14%" numero="+")
-            p Goza de ventajas competitivas en varios segmentos del mercado para tener la libertad de moverse en el mercado como grandes líderes de sus negocios.
+            p #[b Dominante:] Liderazgo tecnológico protegido.
           .tarjeta.bg2.p-3(x="33%" y="58.5%" numero="+")
-            p La posición en el mercado general es pequeña o de nicho, ya sea geográfica o definida por producto.
+            p #[b Débil:] Pérdida de cuota de mercado. La línea de negocio es demasiado pequeña para mantener la rentabilidad.
           .tarjeta.bg2.p-3(x="66.5%" y="65%" numero="+")
-            p Pérdida de cuota de mercado. La línea de negocio es demasiado pequeña para mantener la rentabilidad.
+            p #[b Fuerte:] La participación de mercado es estable, tiene la libertad de elegir estrategias y accionar sin que el mercado se vea en riesgo o amenazado por el asecho de los competidores.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p Los elementos antes relacionados son: 
-    .bg4.p-6
-      .row.justify-content-center.align-items-center.mb-5
+    .bg4.p-5.mb-5
+      .row.justify-content-center.align-items-center
         .col-lg-10
           ul.lista-ul
             li
@@ -790,21 +793,844 @@
             li
               i.fas.fa-check
               |	Envejecimiento: Se empieza a abandonar el Mercado, las ventas disminuyen, la demanda se reduce, se vuelve costoso mantenerse por encima de la competencia o mantener el nivel por lo que se convierte en algunas de las causas para que el negocio empiece a desaparecer.
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .tarjeta.color-secundario.p-3
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img(src="@/assets/curso/temas/tema1/img31.svg").img65
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-1 etapas de ciclo de vida de la industria
+                  p.mb-0.text-small Un ejemplo que se puede presentar desde la etapas del ciclo de vida, es el que se relaciona en el siguiente anexo  
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://docs.google.com/document/d/1GVMQCeOhdZhjYFq6F8IUqUoYGdQZN6mQzbob9HV6dmw/edit" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+    row.mb-4.ps-2    
+      .h4.mb-0.mx-5 Matriz de Igor Ansoff
+      .col-lg-4.bg-color-1.px-4.py-4
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Titulada también matriz de crecimiento del mercado, ayuda a comprender y a evaluar la estrategia de desarrollo de marketing. Es una forma simple y efectiva de considerar las opciones de avance estratégico. Piense en las fortalezas del negocio y cuáles estrategias de crecimiento le permiten impulsar, motivar y explotar sus fortalezas. Tenga en cuenta la diversificación, puesto que es un terreno desconocido, es mejor avanzar en escenarios conocidos que correr mayor riesgo de fracasar en la transformación radical.
+        p Las estrategias que plantea Ansoff en su matriz son:
 
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+      .row(titulo="Penetración del mercado")
+        .col-md-6.mb-4.mb-md-0
+          p Desarrollo de las ventas de productos existentes en el mercado. Una fuerte participación de mercado sugiere que es probable que se obtenga un mejor rendimiento al ampliar la gama de productos y servicios que puede ofrecer al mercado. 
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema1/img59.png', alt='Imagen decorativa')
+      .row(titulo="Desarrollo de productos")
+        .col-md-6.mb-4.mb-md-0
+          p Establecer nuevos productos para llevarlos al mercado es una estrategia interesante si tiene una fuerte participación de mercado. La estrategia puede ser una razón adecuada para adquirir otra empresa de producto o servicio siempre que sea relevante para su mercado.
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema1/img60.png', alt='Imagen decorativa')
+      .row(titulo="Desarrollo de mercado")
+        .col-md-6.mb-4.mb-md-0
+          p Los nuevos mercados también pueden significar nuevas subdivisiones dentro del mercado. Ayuda a mantenerse razonablemente junto al mercado que conoce y que lo conoce a usted.
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema1/img61.png', alt='Imagen decorativa')
+      .row(titulo="Diversificación")
+        .col-md-6.mb-4.mb-md-0
+          p Llevar nuevos productos a nuevos mercados, aunque este cuadrante es de alto riesgo, no solo porque no conoce los productos, sino porque tampoco conoce los nuevos mercados y es muy probable que la estrategia implique trabajar en nuevos canales de distribución y rutas al mercado. 
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema1/img62.png', alt='Imagen decorativa')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Observa de qué manera se puede evidenciar las estrategias antes mencionadas:
+    
+    .row.justify-content-center
+      .col-8.p-2
+        .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
+          h5 Tabla 4
+          span #[i Matriz de Igor Ansoff ]
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .tabla-a.color-secundario.mb-5
+        .tabla-a
+          table
+            thead(style="background-color:#DBE5F3")
+              tr
+                th 
+                th Productos existentes
+                th Próximos productos
+            tbody
+              tr
+                td(style="background-color:#DBE5F3") Mercados Existentes
+                td Penetración del mercado
+                td Desarrollo de productos
+              tr
+                td(style="background-color:#DBE5F3") Nuevos Mercados
+                td Desarrollo de mercado
+                td Diversificación
+    
+    row.mb-4.ps-2    
+      .h4.mb-0.mx-5 Matriz BCG
+      .col-lg-4.bg-color-1.px-4.py-4
+
+    .row.justify-content-center.mb-5
+      .col-lg-6
+        p La Matriz BCG de Boston o conocida como el análisis de #[i Boston Consulting Group] o como la Matriz de crecimiento-participación. Representa una forma útil de comprender y evaluar sus diferentes oportunidades de productos y servicios existentes, además de ser una herramienta para valorar los productos existentes y en desarrollo en términos de su potencial de mercado y, por lo tanto, implica acciones estratégicas para productos y servicios en cada categoría.
+        p Es un gráfico creado para ayudar a las organizaciones con el análisis de sus unidades de negocio o líneas de productos. Contribuye a que las empresas asignen recursos asertivamente y se utiliza como herramienta analítica en #[i marketing] de marca, gestión estratégica y análisis de cartera. La matriz BCG formada por cuatro campos se basa en la observación de que las unidades de negocios de la empresa se clasifican en cuatro categorías fusionadas en crecimiento y participación de mercado. Examina diferentes negocios en su cartera en función de las tasas de crecimiento. En términos generales es un análisis comparativo del potencial comercial y la evaluación del entorno.
+      .col-lg-6
+        figure
+          img(src='@/assets/curso/temas/tema1/img63.png', alt='Imagen decorativa')
+    
+    row.mb-5.ps-2    
+      .h4.mb-0.mx-5 Beneficios de la matriz BCG
+      .col-lg-4.bg-color-1.px-4.py-4
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .row.justify-content-center.align-items-center.bg3.mb-5.p-4
+          .col-lg-3
+            figure
+              img(src='@/assets/curso/temas/tema1/img64.svg', alt='Imagen decorativa')
+          .col-lg-7
+            ul.lista-ul
+              li
+                i.fas.fa-check
+                | Permite comprar varias unidades de negocio cuando lo deseen
+              li
+                i.fas.fa-check
+                | Ofrece un marco para la asignación de recursos y mejores ganancias
+              li
+                i.fas.fa-check
+                | Es la matriz mejor conocida en todo el mundo
+              li
+                i.fas.fa-check
+                | Fomenta una mejor toma de decisiones
+              li
+                i.fas.fa-check
+                | Permite comparar la tasa de crecimiento con la tasa de crecimiento promedio
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Las estrategias que se plantea en la matriz BCG son:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6.desktop
+        ImagenInfografica.color-acento-botones.mb-5.desktop
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/img65.svg', alt='')
+          .tarjeta.bg2.p-3(x="50%" y="47%" numero="1")
+            p #[b Estrella en ascenso:] los productos de éxito que tienen una buena participación de mercado en un mercado enérgico y en crecimiento. Son productos de excelencia que merecen el financiamiento puesto que tienen potencial de crecimiento.
+          .tarjeta.bg2.p-3(x="60%" y="47%" numero="2")
+            p #[b Situación problemática:] Son productos que tienen un potencial de mercado grande y creciente pero que tienen una participación de mercado baja, normalmente porque son productos nuevos o porque la aplicación aún no se ha detectado ni se ha actuado en consecuencia. 
+          .tarjeta.bg2.p-3(x="50%" y="60%" numero="3")
+            p #[b Vaca:] Se denomina así, porque la intención es ordeñar los rendimientos de inversiones anteriores que establecieron una buena distribución y participación de mercado para el producto. Los productos en este cuadrante necesitan actividad de mantenimiento y protección, junto con una buena gestión de costos.
+          .tarjeta.bg2.p-3(x="60%" y="60%" numero="4")
+            p #[b Perro:] No tiene sentido desarrollar productos o servicios en este cuadrante. Muchas organizaciones descontinúan productos servicios que consideran son de esta categoría, en cuyo caso, considere el impacto potencial en la recuperación de costos generales. 
+      .col-lg-12.movil
+        figure
+          img(src='@/assets/curso/temas/tema1/img65-1.svg', alt='')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Es así como se puede observar la Matriz de las 4C
+    
+    .row.justify-content-center.mb-5
+      .col-8.p-2
+        .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
+          h5 Tabla 5
+          span #[i Matriz de las 4C ]
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .tabla-a.color-acento-contenido.mb-5
+          table
+            thead
+              tr
+                th 4C del consumidor
+                th 4C del #[i marketing]
+            tbody
+              tr
+                td 
+                  .cblanco3
+                    ul.lista-ul
+                      li
+                        i.fas.fa-circle
+                        | Consumidor por necesidad
+                      li
+                        i.fas.fa-circle
+                        | Costo para satisfacer
+                      li
+                        i.fas.fa-circle
+                        | Comodidad de compra
+                      li
+                        i.fas.fa-circle
+                        | Comunicación 
+              tr
+                td                 
+                  .cblanco3
+                    ul.lista-ul
+                      li
+                        i.fas.fa-circle
+                        | Claridad
+                      li
+                        i.fas.fa-circle
+                        | Credibilidad
+                      li
+                        i.fas.fa-circle
+                        | Consistencia
+                      li
+                        i.fas.fa-circle
+                        | Competitividad
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        p La cual detalla sus componentes de la siguiente manera:
+        p Consumidor por necesidad: las empresas fabrican teniendo en cuenta los deseos y necesidades del consumidor.
+        p Costo para satisfacer: oferta de precios más bajos en los que la marca es quien se involucra además de los proveedores que también se ven obligados por los compradores a bajar de precio para satisfacer al que compra.
+        p Comodidad para comprar: acceso al producto en cualquier momento, en cualquier lugar y de cualquier forma. Dicho en otras palabras, es que puedas obtener el producto cuando lo desees porque lo consigues en cualquier sitio, no hay restricciones de horarios, como suele suceder con algunos servicios.
+        p Comunicación: diálogo entre la empresa y el cliente, hoy en día con más herramientas para llevar a cabo el desarrollo de esta C, el #[i marketing] digital ha hecho posible que las relaciones empresa-cliente se fortalezcan a través de contenidos que se generan para el consumidor.
+
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema1/img66.svg', alt='')
+
+    row.mb-5.ps-2
+      .h4.mb-0.mx-5 Matriz de las 4C del consumidor
+      .col-lg-4.bg-color-1.px-4.py-4
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Las 4C del #[i marketing] son: la claridad, la credibilidad, la consistencia y la competitividad. Se utilizan en las comunicaciones de #[i marketing]. Una vez el negocio ha identificado su público objetivo ahondaba sus esfuerzos en posicionar el negocio y construir una propuesta de valor exitosa. Para la empresa es importante hacer uso de esta herramienta ya que las grandes empresas han echado mano de ello y se nota en el eslogan que cumplen con la claridad y credibilidad. Observa cómo se representan:
+
+    .row.justify-content-center.mb-5
+      .col-8.p-2
+        .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
+          h5 Tabla 6
+          span #[i Matriz de las 4C del consumidor ]
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .tabla-a.color-acento-contenido.mb-5
+          table
+            thead
+              tr
+                th
+                th Situación actual de la organización
+                th Competidor
+                th Cómo se podría mejorar la oferta
+            tbody
+              tr
+                td Consumidor por necesidad
+                td
+                td
+                td
+              tr
+                td Costo por satisfacer
+                td
+                td
+                td
+              tr
+                td Comodidad de compra
+                td
+                td
+                td
+              tr
+                td Comunicación
+                td
+                td
+                td
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Es un gran modelo para usar en el desarrollo del eslogan o en la formulación y presentación de la propuesta de valor, es fundamental que lo anterior le aporte al negocio y al consumidor la claridad y la credibilidad, así no se reflejen necesariamente todas las 4C.
+
+    .row.justify-content-center.mb-5
+      .col-8.BG01.p-2
+        .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
+          h5 Tabla 7
+          span #[i Modelo de desarrollo del eslogan o propuesta de valor]
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .tabla-a.color-acento-contenido.mb-5
+        .tabla-b.color-acento-contenido.mb-5
+          .tabla-b__header
+            h5.mb-0 Empresa:
+          table
+            thead
+              tr
+                th Las 4C de la comunicación
+                th Eslogan
+            tbody
+              tr
+                td Claridad
+                td
+              tr
+                td Credibilidad
+                td
+              tr
+                td Consistencia 
+                td
+              tr
+                td Competitividad
+                td
 
     Separador
     .row
       .col-xl-12
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2.my-5 1.3 Riesgo empresarial
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p El dinamismo económico del País ha llevado a los negocios a utilizar e implementar una palabra muy de moda durante la situación de emergencia sanitaria “reinventarse”, negocios que expandieron su línea de producto según la necesidad del consumidor y las circunstancias de salud por las que atravesó el mundo desde el año 2020, observa lo siguiente: 
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Leyenda del video
     
+    row.mb-5.ps-2
+      .h4.mb-0.mx-5 Análisis del entorno en el año 2020
+      .col-lg-4.bg-color-1.px-4.py-4
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12 
+        p El país es cuantioso con sus recursos naturales, observa como se comparte a continuación un análisis realizado en el año 2020.
+      
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10.desktop
+        ImagenInfografica.color-acento-botones.mb-5.desktop
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/img67.svg', alt='')
+          .tarjeta.bg2.p-3(x="26%" y="19.5%" numero="+")
+            p Tiene las mayores reservas de carbón de América Latina
+          .tarjeta.bg2.p-3(x="40%" y="38.5%" numero="+")
+            p Grandes reservas de petróleo y gas natural
+          .tarjeta.bg2.p-3(x="22%" y="41.5%" numero="+")
+            p La agricultura es extensiva y muy diversificada
+          .tarjeta.bg2.p-3(x="82%" y="54%" numero="+")
+            p Se han expandido tanto la industria como los servicios
+          .tarjeta.bg2.p-3(x="58%" y="76%" numero="+")
+            p Los principales cultivos de Colombia son el café, el banano, las flores cortadas, la caña de azúcar, la ganadería, el arroz y el maíz.
+          .tarjeta.bg2.p-3(x="38%" y="59.5%" numero="+")
+            p Tiene el segundo mayor potencial hidroeléctrico del continente
+          .tarjeta.bg2.p-3(x="71.5%" y="13%" numero="+")
+            p Se han expandido tanto la industria como los servicios
+      .col-lg-12.movil
+        figure
+          img(src='@/assets/curso/temas/tema1/img67-1.svg', alt='')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6
+        figure
+          img(src='@/assets/curso/temas/tema1/img68.png', alt='')
+      .col-lg-6
+        p La agricultura sigue siendo una importante fuente de empleo en el país, ya que emplea la mano de obra a pesar de los impactos negativos de la pandemia. La agricultura colombiana experimentó el mayor crecimiento de cualquier sector en 2020 y continuó creciendo en 2021, junto con el sector ganadero.
+        p Colombia es el país con mayor diversidad industrial de la Comunidad Andina, con cuatro importantes centros industriales: 
+        .cblanco3
+          ul.lista-ul
+            li
+              i.fas.fa-circle
+              | Bogotá 
+            li
+              i.fas.fa-circle
+              | Medellín 
+            li
+              i.fas.fa-circle
+              | Cali 
+            li
+              i.fas.fa-circle
+              | Barranquilla.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p La mayoría de las industrias del país están impulsadas por la agricultura y las materias primas, siendo las principales industrias la textil, productos químicos, metalurgia, cemento, envases de cartón, resinas plásticas y bebidas. Recientemente sufrió la desaceleración de la demanda extranjera debido al brote. Si bien el sector industrial se vio afectado negativamente por la pandemia, especialmente por la débil demanda mundial de carbón y petróleo, la actividad industrial en Colombia registró una importante recuperación en 2021.
+        p Según el documento Balance 2020 y perspectiva 2021 (año). Infiere que el mercado laboral ha sido uno de los grandes afectados a nivel mundial con la emergencia sanitaria provocada por el COVID-19. Para la vigencia 2020, la organización Internacional del trabajo OIT habla de pérdidas de puestos de trabajo alrededor de uno 345 millones. En Colombia, la pérdida de puestos de trabajo oscila entre los 1,5 millones, observa los elementos a tener presente frente a este balance realizado: 
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        SlyderA(tipo='b')
+          .row
+            .col-md-4.mb-4.mb-md-0
+              h4 Exportaciones e importaciones
+              p En las exportaciones e importaciones de la vigencia 2020 también se vieron afectadas, puesto que las restricciones no facilitaban la tarea, la logística en cuanto a movilidad se hacía con el pasar del tiempo más compleja
+            .col-md-8
+              figure
+                img(src='@/assets/curso/temas/tema1/img69.png', alt='Imagen decorativa')
+          .row
+            .col-md-4.mb-4.mb-md-0
+              h4 Emergencia sanitaria
+              p La economía se transformó dando paso a otros productos mucho más relevantes en cuanto a la situación de emergencia sanitaria. Dicho en otras palabras, el sector salud desplazo a varios sectores económicos que eran solidos gracias a comercio exterior.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img70.png', alt='Imagen decorativa')
+          .row
+            .col-md-6.mb-4.mb-md-0
+              h4 Fuentes de ingreso
+              p Las condiciones económicas del 2020 requirieron contar con indicadores oportunos en tiempo real para realizar seguimiento y aplicar los cambios que se crean necesarios. Por tanto, otras fueron las fuentes que generaron ingreso en nuestro país, la información que entregaban los noticieros se volvió indispensable para manejar la situación.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img71.png', alt='Imagen decorativa')
+          .row
+            .col-md-6.mb-4.mb-md-0
+              h4 Audiciencia
+              p La audiencia exigía estar informado y para ello hacía uso de la tecnología, las diferentes revistas entregaban varios datos y artículos científicos sobre la situación que afrontaba el mundo. 
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img72.png', alt='Imagen decorativa')
+          .row
+            .col-md-6.mb-4.mb-md-0
+              h4 <em>Marketing</em>
+              p Publicidad de la salud, marketing en temas de posibles vacunas, todas apuntando a un mismo esfuerzo, salir de la hecatombe en el que estaba el mundo y frenar la recesión económica de la vigencia 2020 para el país.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema1/img73.png', alt='Imagen decorativa')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .cajon.color-primario.p-4.mb-4
+          p Gracias al tamaño de su mercado y la extensión de sus recursos naturales: café, esmeraldas, petróleo y carbón, entre otros. Además de una reputación histórica como un deudor ejemplar, Colombia ha experimentado un crecimiento estable y sólido durante la mayor parte de las últimas dos décadas. Si bien el país se vio afectado por la caída de los precios del petróleo debido a la pandemia en 2020, Colombia pudo recuperarse en 2021, con un crecimiento del producto interno bruto (PIB) principalmente debido al impulso de las exportaciones de petróleo y al aumento del consumo de los hogares, que debería continuar para impulsar la economía en los próximos años, apoyado en la continua recuperación del mercado laboral y la continua implementación de programas de apoyo fiscal dirigidos a los hogares de bajos ingresos.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p El repunte del consumo de los hogares del país impulsó las importaciones, que superaron el aumento de las exportaciones a pesar del aumento de los precios de las materias primas agrícolas y energéticas, y contribuyó al déficit de cuenta de Colombia, de esta manera: 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        figure
+          img(src='@/assets/curso/temas/tema1/img74.svg', alt='Imagen decorativa')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p El déficit público de Colombia sigue siendo motivo de preocupación para el gobierno y los inversores. Las medidas fiscales de Colombia para mitigar la pandemia iniciada en el 2020 han sido efectivas para impulsar la actividad económica que se ha recuperado gradualmente en el año 2021 y lo que se lleva del 2022, observa la siguiente infografía 
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        figure
+          img(src='@/assets/curso/temas/tema1/img75.svg', alt='Imagen decorativa')
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        p En 2020, las exportaciones colombianas sufrieron la caída de los precios del petróleo y la desaceleración económica en sus principales mercados asociados provocada por la pandemia. De hecho, las exportaciones del país disminuyeron y durante el mismo período, las importaciones de bienes también disminuyeron. Como resultado, el déficit comercial de Colombia llegó a 7,9 mil millones de dólares en 2020. Según la Organización Mundial del Comercio OMC, las importaciones de servicios en 2020 ascendieron a 9 mil millones de dólares, mucho más que las exportaciones de servicios. Por lo tanto, el déficit comercial general en 2020 alcanzó los 12,4 mil millones de dólares.
+    
+    row.mb-5.ps-2
+      .h4.mb-0.mx-5 Análisis del entorno en el año 2021
+      .col-lg-4.bg-color-1.px-4.py-4
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6
+        p Denominado la recuperación de la economía, la reactivación económica mediante la mayor operación de los sectores.
+        p La importancia del sector servicios ha aumentado en los últimos años, convirtiéndose en la columna vertebral de la economía colombiana El turismo es uno de los componentes más importantes del sector servicios y ha mostrado un gran dinamismo en los últimos años, especialmente en Bogotá, Medellín, Cartagena, Cali y Barranquilla. El sector servicios fue el más afectado durante las primeras etapas de la pandemia, especialmente el turismo, hotelería, la restauración, el transporte y el entretenimiento. Sin embargo, en 2021, los servicios mostraron una recuperación significativa a medida que aumentaron las tasas de vacunación y aumentó la movilidad de las personas.
+
+      .col-lg-6
+        figure
+          img(src='@/assets/curso/temas/tema1/img76.png', alt='Imagen decorativa')
+
+    .row.justify-content-center.mb-5
+      .col-8.BG01.p-2
+        .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
+          h5 Tabla 8
+          span #[i Falta el nombre]
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .tabla-a.color-acento-contenido.mb-5
+        .tabla-b.color-acento-contenido.mb-5
+          .tabla-b__header
+            h5.mb-0 Empresa:
+          table
+            thead
+              tr
+                th SECTOR
+                th PIB
+                th GENERA EMPLEA
+            tbody
+              tr
+                td Servicios
+                td 59.5 %
+                td 64.1 %
+              tr
+                td Industria
+                td 23.8 %
+                td 20.1 %
+              tr
+                td Agricultura
+                td 7.6 %
+                td 15.7 %
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p El consumo privado es el principal motor de la recuperación a medida que repunta el empleo, aunque a un ritmo más lento que la actividad económica. Los fuertes precios de las materias primas y la mejora de las perspectivas en los principales socios comerciales clave seguirán apuntalando las exportaciones. Para fomentar el espíritu empresarial, se deben reducir los altos costos de registro de las empresas, especialmente para las pequeñas empresas.
+    
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img77.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La creación de empleo formal requiere un sector empresarial más fuerte. El acceso a los mercados debe ser apoyado a través de nuevas mejoras en la infraestructura de transporte, en particular multimodal, conectividad de transporte de puertos y aduanas, y reducción de barreras de entrada y competencia en el transporte. Deben eliminarse las barreras no arancelarias distorsionadoras y facilitarse la entrada y el crecimiento de las empresas mediante una mayor dependencia de ventanillas únicas y herramientas en línea para los procedimientos administrativos.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p En la última década, los resultados educativos siguen siendo mediocres, estos dependen en gran medida de los antecedentes socioeconómicos y muestran grandes diferencias regionales. Mejorar los resultados en la equidad de la educación y la formación debe comenzar ampliando el acceso a la educación de la primera infancia y la escolarización de jornada completa, particularmente en las zonas rurales. Los recursos deben reasignarse a regiones vulnerables para que la enseñanza sea más atractiva allí. 
+        p Los planes de estudios y la financiación de la educación y la formación profesional deben ajustarse en función de a las necesidades del mercado laboral, y se debe alentar la participación de los empleadores en la entrega. Las prácticas débiles excluyen a muchos del mercado laboral formal. La recuperación económica se consolido especialmente en el segundo semestre de 2021, pues la población más vulnerable se encontró vacunada para ese momento. La aceleración en la construcción de viviendas y las mejoras en el mercado laboral serán importantes para la recuperación económica.
+        p Las tasas de crecimiento más fuertes para la vigencia 2021, se observaron en el entretenimiento, las artes y las actividades recreativas, el comercio mayorista y minorista, información y comunicación; actividades manufactureras y servicios administrativos y de apoyo y actividades técnicas, científicas y profesionales. La economía se expandió en un 4,3 %.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .tarjeta.color-secundario.p-3
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img(src="@/assets/curso/temas/tema1/img78.svg").img65
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-1 Presentación estadística de las unidades económicas en el país para la vigencia 2021. 
+                  p.mb-0.text-small Tiene el propósito de mostrarle la participación del país por sectores económicos, además de suministrar los resultados para que tenga un panorama más amplio de las actividades económicas que se fortalecen en el país.
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://www.dane.gov.co/index.php/estadisticas-por-tema/comercio-interno/censo-economico-de-colombia/conteo-de-unidades-economicas-2021" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+    row.mb-5.ps-2
+      .h4.mb-0.mx-5 Actualidad del mercado
+      .col-lg-4.bg-color-1.px-4.py-4
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Colombia exporta e importa los siguientes productos, de acuerdo con información entregada por el Banco Mundial.
+    
+    .row.justify-content-center.mb-5
+      .col-8.BG01.p-2
+        .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
+          h5 Tabla 9
+          span #[i Exportaciones en Colombia ]
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        .tabla-a.color-acento-contenido.mb-5
+        .tabla-b.color-acento-contenido.mb-5
+          .tabla-b__header
+            h5.mb-0 Empresa:
+          table
+            thead
+              tr
+                th(colspan="2") Exportaciones
+                th(colspan="2") Importaciones
+              tr
+                th Productos
+                th Porcentajes
+                th Productos
+                th Porcentajes
+            tbody
+              tr
+                td Aceite de Petróleo	
+                td 40.3 %	
+                td Aceite de Petróleo	
+                td 7,9 %
+              tr
+                td Carbón	
+                td 12,4 %	
+                td Aparatos de radiotelefonía	
+                td 4,8 %
+              tr
+                td Café	
+                td 6 %	
+                td Vehículos automotores	
+                td 4,6 %
+              tr
+                td Oro	
+                td 4,4 %	
+                td Medicamentos	
+                td 3 %
+              tr
+                td Flores	
+                td 3,7 %	
+                td maíz	
+                td 2,3 %
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Los principales socios comerciales de Colombia son Estados Unidos, China, Brasil, India, Ecuador, Panamá y Alemania. Colombia ha firmado acuerdos comerciales con los países de la Comunidad Andina de Naciones (CAN), los países del MERCOSUR, los países de Centroamérica y el Caribe y la Unión Europea. Junto con México, Chile y Perú.
+    
+    .bg5.p-4.mb-5
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-10
+          p Dentro de los principales aumentos significativos en la economía colombiana en el 2022, se encuentran:
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-9
+          ul.lista-ul
+            li
+              i.fas.fa-angle-right
+              | Las exportaciones aumentaron en un 46,9% en los primeros meses de la vigencia 2022
+            li
+              i.fas.fa-angle-right
+              | Aumento de las ventas de combustible y productos mineros (carbón coque y briquetas)
+            li
+              i.fas.fa-angle-right
+              | Aumento del Petróleo y sus derivados en un 78,1 %
+            li
+              i.fas.fa-angle-right
+              | Aumento de envió de productos manufacturados en un 28,3 %
+            li
+              i.fas.fa-angle-right
+              | Aumento del sector agricultura, alimentos y bebidas en un 17,9 %
+            li
+              i.fas.fa-angle-right
+              | Venta de barriles de crudo en un 10% más en el mes de marzo comparado con el mismo mes de la vigencia 2021
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p El país también es parte de numerosos tratados de libre comercio con Chile, Guatemala, Honduras, El Salvador, Canadá, México, Suiza, Noruega, Islandia y Estados Unidos. El tratado de libre comercio con Estados Unidos, ha tenido un impacto especialmente grande en la economía colombiana, dado que Estados Unidos es el mayor socio comercial del país.
+
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img79.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Colombia tiene 15 acuerdos comerciales preferenciales vigentes. La tasa arancelaria promedio ponderada por el comercio es del 6,8 por ciento y están en vigor 153 medidas no arancelarias. En general, las políticas gubernamentales no interfieren significativamente con la inversión extranjera. El sector financiero se mantiene resistente. Las reformas continúan enfocándose y promoviendo el desarrollo de los mercados de capital al mejorar la flexibilidad y la competencia.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p En el mes de febrero del año 2022 se desaceleró rudamente el crecimiento anual de las ventas minoristas en nuestro país. Fue la expansión más lenta del sector minorista a un 4,9 % comparado con los cinco meses anteriores en un alza 21 %. Las contribuciones de ventas más importantes se registran en el combustible, los respuestas, accesorios y lubricantes para vehículos. Asimismo, en el sector textil. En cambio, los sectores que disminuyeron sus ventas se identifican en el área de vehículos, motos, alimentos, electrodomésticos y muebles.
+
+    row.mb-5.ps-2
+      .h4.mb-0.mx-5 Variables económicas
+      .col-lg-4.bg-color-1.px-4.py-4
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-3
+        figure
+          img(src='@/assets/curso/temas/tema1/img80.svg', alt='Imagen decorativa')
+      .col-lg-8
+        p El estudio de la economía se clasifica según su variabilidad en: la macroeconomía y la microeconomía. Para las empresas un análisis macro o micro puede ayudar con la toma de decisiones cuando se está pensando en expandir la producción o inserción en un nuevo mercado. A continuación, se detalla cada una de estas variables económicas:
+        p #[b La Macroeconomía:] Examina cómo se comporta la economía a gran escala, incluyendo factores que impactan el mercado, el producto interno bruto, la inflación, el crecimiento económico y las cifras de desempleo. Comprende cada uno de los elementos y cómo influyen entre sí para analizar el lugar que ocupa el negocio dentro del mercado. Los inversionistas utilizan la variable para planificar los futuros movimientos analizando cómo se comporta el Mercado.
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Algunas variables macroeconómicas que se utilizan para medir el estado actual de la economía son: 
+
+    TabsA.color-acento-botones.mb-5
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Producto interno bruto (PIB)")
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-12
+            h4 Producto interno bruto (PIB)
+            p En el año 2021, el PIB saltó un 10,3 por ciento, recuperándose sólidamente de una contracción del 7,3 por ciento en el año anterior. El sector más grande y de más rápido crecimiento de la economía colombiana es el de servicios con un 53% del PIB, en el que incluye: financiamiento, seguros, bienes raíces y servicios empresariales; servicios comunitarios, sociales y personales; comercio, reparaciones, restaurantes y hoteles y transporte, almacenamiento y comunicaciones. La industria manufacturera y la minería.
+            p Otros sectores incluyen: 
+            ul.lista-ul
+              li
+                i.fas.fa-angle-right
+                | Gobierno 10 %
+              li
+                i.fas.fa-angle-right
+                | Agricultura, caza, silvicultura y pesca 6,3 %
+              li
+                i.fas.fa-angle-right
+                | Construcción 6 %
+              li
+                i.fas.fa-angle-right
+                | Distribución de electricidad, gas y agua 4 %
+
+
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Tasa de inflación")
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-12
+            h4 Tasa de inflación
+            p El año pasado, la inflación fue del 5,62 %, la más alta en 5 años, no se espera que la inflación de Colombia regrese al 3 % objetivo del banco central en los próximos 2 años. La tasa de inflación anual en Colombia se aceleró a 9,23% en abril de 2022 desde 8,53 % en marzo, superando el consenso de mercado de 8,78 %. Las principales presiones al alza provinieron del costo de los alimentos y bebidas no alcohólicas, bebidas alcohólicas y tabaco, vestuario, agua, servicios públicos, muebles, salud, transporte, ocio y cultura, restauración y varios.
+
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Índice de precios al consumidor (IPC)")
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-12
+            h4 Índice de precios al consumidor (IPC)
+            p En Colombia, los tres principales componentes del índice de precios al consumidor son: 
+            ul.lista-ul
+              li
+                i.fas.fa-angle-right
+                | Vivienda y Servicios Públicos 33,1 %
+              li
+                i.fas.fa-angle-right
+                | Alimentos y Bebidas No Alcohólicas 15 %
+              li
+                i.fas.fa-angle-right
+                | Transporte 12,9 %
+            p Otros incluyen: Restaurantes y Hoteles, bienes y servicios misceláneos. Educación e Información y Comunicación, mobiliario, vestuario y calzado, Recreación y cultura, Bebidas Alcohólicas y Tabaco y Salud. El IPC cubre la población urbana, incluidas algunas áreas metropolitanas, que concentran la mayor población registrada en el país y presentan el entorno económico más dinámico en comparación con el resto de las ciudades del país.
+
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Índice de precios al productor (IPP)")
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-12
+            h4 Índice de precios al productor (IPP)
+            p Mide el cambio promedio en el tiempo de los precios desde el primer nivel de mercadeo para una canasta de productos. Dicho en otras palabras, evalúa el cambio promedio en el precio de los bienes y servicios vendidos por los fabricantes y productores en el mercado mayorista durante un período determinado. La entidad encargada de generar esta información es el Departamento Administrativo Nacional de Estadística (DANE).  Los precios al productor en Colombia aumentaron un 35,65% interanual en abril de 2022, acelerándose desde un aumento del 32,84% en el mes anterior. Fue la inflación al productor más alta desde que comenzaron los registros comparables en el 2000. 
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Tasa representativa del mercado (TRM)")
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-12
+            h4 Tasa representativa del mercado (TRM)
+            p El promedio ponderado de las tasas de cambio de compra y venta de las operaciones realizadas el día hábil anterior por ciertos bancos comerciales y sociedades financieras en Bogotá, Cali, Barranquilla y Medellín, según lo calculado y publicado por la Superintendencia Bancaria de Colombia. Este dato se refleja en la página del banco de la república de Colombia.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p #[b La Microeconomía:] Analiza lo que sucede cuando los actores individuales toman decisiones financieras y cómo estas decisiones interactúan entre sí. Explora los factores que impulsan el comportamiento individual y empresarial, dividiendo las personas en grupos pequeños como propietarios de negocios, compradores y vendedores.
+
     Separador
     .row
       .col-xl-12
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.4 Riesgo empresarial
+      h2.my-5 1.4 Estrategias de #[i marketing]
     
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Una estrategia de #[i marketing] le ayuda a determinar a quién está sirviendo y cómo puede alinear sus planes comerciales con las necesidades de sus clientes, esto no solo generará clientes más felices, sino que también generará ingresos y garantizará que se dirija en la dirección estratégica correcta para el crecimiento a corto y largo plazo.
+        p A continuación se presentan los puntos claves para desarrollar una estrategia de marketing que sea inmune a los riesgos, puesto que no es una tarea acelerada ni fácil.
+
+    .row.justify-content-center.align-items-center.mb-5      
+      .col-md-3.col-xl-3.mb-4.mb-xl-0        
+        .tarjeta-numerada.color-primario.p-5
+          .tarjeta-numerada__numero
+            .h2 1
+          p.text-center 
+            b Identificación de objetivos
+          p.text-center Los propósitos que quiere alcanzar a corto y largo plazo, puede incluir cifras de ventas específicas, pero también considerar factores como aumentar el conocimiento de la marca y su presencia en las redes sociales.
+
+      .col-md-3.col-xl-3.mb-4.mb-xl-0
+        .tarjeta-numerada.color-secundario.p-5
+          .tarjeta-numerada__numero
+            .h2 2
+          p.text-center 
+            b Estudio o investigación de mercado
+          p.text-center Aquí podrá identificar sus clientes potenciales o los interesados en su producto, no desaproveche la información y aprenda todo lo que pueda sobre sus clientes objetivo (que necesitan).
+
+      .col-md-3.col-xl-3.mb-4.mb-xl-0
+        .tarjeta-numerada.color-acento-contenido.p-5
+          .tarjeta-numerada__numero
+            .h2 3
+          p.text-center 
+            b Análisis de la competencia
+          p.text-center Métodos y técnicas de marketing utilizados por la competencia para analizar e interpretar, además de recoger respuestas sobre como venden ellos los productos y la relación que sostienen con los clientes.
+
+    .row.justify-content-center.align-items-center.mb-5      
+      .col-md-3.col-xl-3.mb-4.mb-xl-0
+        .tarjeta-numerada.color-acento-botones.p-5
+          .tarjeta-numerada__numero
+            .h2 4
+          p.text-center 
+            b Identificación de la propuesta de venta
+          p.text-center En el negocio es muy importante que establezca en su producto la propuesta de valor la cual ha de ser llamativa para satisfacer las necesidades del cliente, lo cual marca la diferencia con su competencia y lo convierte en la mejor opción de compra.
+
+      .col-md-3.col-xl-3.mb-4.mb-xl-0
+       .tarjeta-numerada.color-primario.p-5
+          .tarjeta-numerada__numero
+            .h2 5
+          p.text-center 
+            b Canales de <em>marketing</em>
+          p.text-center La mayoría de las empresas optan por una combinación de estrategias en línea o tradicionales en donde se reduce a comprender a su audiencia sobre las plataformas en las que pasan mayor tiempo y les generan mayor seguridad.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Es importante distinguir que la estrategia de marketing establece los objetivos generales y la dirección de las actividades de marketing en los próximos meses y años, apoyados en un plan de marketing que proporcionará los detalles de las actividades reales que llevará a cabo para lograr estos objetivos. Tanto la estrategia de marketing como el plan de marketing son claves para su éxito a largo plazo, ya sea que su empresa sea una pequeña empresa emergente o una organización global. 
+        p Con lo descrito, se relaciona la siguiente caracterización de la estrategia de marketing:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/temas/tema1/img81.svg', alt='Imagen decorativa')
+      .col-lg-5
+        LineaTiempoD.color-acento-botones
+          .row(numero="1" titulo="Metas u objetivos")
+            .col-md-12.mb-4.mb-md-0
+              p.mb-0 Exprese lo que quiere lograr, a través de la generación de respuestas al como y el cuando , el tiempo que tardara en alcanzar los objetivos trazados y los recursos que demanda.
+          .row(numero="2" titulo="Mercado objetivo")
+            .col-md-12.mb-4.mb-md-0
+              p.mb-0 Enfóquese en quien importa , que para el caso son las personas compradoras , obtenga conocimiento de los clientes, sus necesidades, problemas y comportamientos de compra.
+          .row(numero="3" titulo="Análisis")
+            .col-md-12.mb-4.mb-md-0
+              p.mb-0 Realice una análisis de la situación en donde pueda evaluar el rendimiento de #[i marketing] propuesto. Revise y evalue las fortalezas y debilidades de la competencia.
+          .row(numero="4" titulo="Propuesta")
+            .col-md-12.mb-4.mb-md-0
+              p.mb-0 Cree propuestas de valor, declaraciones de visión y misiones para contar y compartir su historia.
+          .row(numero="5" titulo="Canales")
+            .col-md-12.mb-4.mb-md-0
+              p.mb-0 Concéntrese en los canales mas efectivos para involucrar, educar, entretener y nutrir a los clientes.
+          .row(numero="6" titulo="Plan táctico")
+            .col-md-12.mb-4.mb-md-0
+              p.mb-0 Enfoque un plan de ejecución táctica para guiar quien hace qué, cuándo y como, así como herramientas, procesos y mejores prácticas.
+          .row(numero="7" titulo="Métrica")
+            .col-md-12.mb-4.mb-md-0
+              p.mb-0 Mida cómo se esta desempeñando el #[i marketing] en comparación con varios puntos de referencia, luego optimice para mejorar los resultados y el rendimiento.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p El #[i marketing] para una empresa pequeña dispone de una serie de estrategias que puede utilizar para comunicarse y convencer a los clientes. Las acciones estratégicas de mercadeo pueden incluir el pago de publicidad, apariciones en eventos, campañas de relaciones públicas, redes sociales y descuentos por correo electrónico. Como resultado, cada negocio demandará una combinación diferente de herramientas para crear una estrategia de #[i marketing] exitosa.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6
+        figure
+          img(src='@/assets/curso/temas/tema1/img82.png', alt='Imagen decorativa')
+      .col-lg-6
+        p La estrategia de marketing abarca la oferta, el precio, la promoción y la distribución del producto o servicio, o la entrega del producto o servicio a sus clientes. Impulsa las características del producto, el tiempo desde el pedido hasta la entrega, la logística, la investigación y el desarrollo, el servicio al cliente. En resumen, impulsa lo que es clave para todas las facetas del negocio.
+        p Los tres principales factores externos que afectan las estrategias de marketing de manera negativa son:
+        .cblanco3
+          ul.lista-ul
+            li
+              i.fas.fa-circle
+              | Adecuarse a la recesión económica
+            li
+              i.fas.fa-circle
+              | Crecimiento de la competencia
+            li
+              i.fas.fa-circle
+              | Cambios en la conducta de compra del cliente.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Estos aspectos se deben evaluar periódicamente para saber cómo responder o focalizar la estrategia de #[i marketing] planteada. Si se descuida en uno de estos factores se pierde el horizonte y las posibilidades de alcanzar los objetivos de corto y largo plazo del negocio. La implementación formal de la estrategia se convierte en objetivos para evaluaciones de desempeño y posiblemente cambios en la organización.
+        p
+          .cblanco3 
+            ul.lista-ul
+              li
+                i.fas.fa-circle
+                | Entornos del negocio que impulsa la estrategia de #[i marketing].
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p En el negocio y las diferentes estrategias que se pueden implementar se presentan elementos como:
+
+    .row.justify-content-center.align-items-center.mb-5      
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
+        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h5 Las ventas
+              p Instituye las fortalezas para vender, las ventajas que ofrece el negocio por la compra, determina que clientes son potenciales y a cuáles hay que dejar seguir. Las ventas facilitan información importante sobre el plan en el campo.
+              br
+              br
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img83.png')})`}")      
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
+        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h5 Las operaciones
+              p Si la estrategia es de bajo costo, por ende, las operaciones deben eliminar los costos del producto. Si está ofreciendo un flujo de nuevos productos, por ende, las operaciones deben tener la flexibilidad y la práctica para hacerlo de manera rentable.
+              
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img84.png')})`}")      
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
+        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h5 La investigación
+              p Estipula la necesidad de desarrollar o no nuevos productos continuamente y los lineamientos de estos productos, también entrega información de líneas de tiempo cruciales para los lanzamientos de productos.
+              br
+              br
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img85.png')})`}")      
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
+        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h5 Finanzas
+              p Garantiza que se realice un seguimiento y monitoreo a los indicadores de medida para proporcionar el análisis adecuado sobre el éxito de la estrategia.
+              br
+              br
+              br
+              br
+              br
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img86.png')})`}")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p Por ende, la estrategia de #[i marketing] impulsará la estrategia en los demás departamentos de una empresa que está orientada a crecer de manera rentable. La estrategia de #[i marketing] es mucho más grande, ya que se instaura para toda la organización, puesto que contiene las claves de la ventaja competitiva y del crecimiento rentable.
+
     Separador
     .row
       .col-xl-12
