@@ -11,11 +11,11 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p Para reconocer los principales conceptos que serán abordados en el desarrollo del componente formativo, se detallan elementos que permiten reconocer estrategias de mercadeo de acuerdo con objetivos comerciales, es así como se invita a observar la siguiente introducción.
+        p Con el fin de identificar los principales conceptos que se abordarán en el desarrollo del componente formativo, se presentan elementos que permiten comprender las estrategias de mercadeo en función de los objetivos comerciales. A continuación, se ofrece una introducción del tema:
     
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/wwfO8OKTp_0?si=nt9UYVb5bvrd-abl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     
 </template>

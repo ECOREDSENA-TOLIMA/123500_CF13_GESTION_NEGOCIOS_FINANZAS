@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Herramientas de análisis en el mercadeo',
     descripcionCurso:
-      'El mercadeo, cumple con las estrategias de necesidades específicas del cliente, se debe reducir el comportamiento de cambio del cliente hacia otras marcas, para ello, el líder de mercadeo puede jugar con las diferentes herramientas para cautivar y retener el consumidor, la publicidad animar e incentivar a probar algo innovador a través de diferentes contenidos que lo impacten.',
+      'El mercadeo debe proponer estrategias que satisfagan necesidades específicas del cliente, buscando evitar que el cliente cambie la marca por otras, para ello, el líder de mercadeo puede jugar con diversas herramientas para cautivar y retener el consumidor, como el uso de la publicidad para animar e incentivar al cliente potencial a probar algo innovador a través de diferentes contenidos que lo impacten.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -222,9 +222,35 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Nombre_rol',
-          centro: 'Nombre_centro_formación',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesoría metodológica y pedagógica',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Fabiola Sierra Sarmiento',
+          cargo: 'Experto temático',
+          centro: 'CIES - Regional Norte de Santander',
+        },
+        {
+          nombre: 'Leydy Jhuliana Jaramillo Mejía',
+          cargo: 'Diseño instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesoría Metodológica',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluación instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -232,17 +258,27 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Diseñador web',
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Producción audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Diego Fernando Velasco Güiza',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Producción audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Jose Yobani Penagos Mora',
+          cargo: 'Diseño web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
+          nombre: 'Veimar Celis Meléndez',
           cargo: 'Animación y producción audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -252,17 +288,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Validación de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Nombre_responsable',
+          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validación de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
