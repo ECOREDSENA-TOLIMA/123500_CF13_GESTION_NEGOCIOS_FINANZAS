@@ -279,7 +279,7 @@ export default {
         },
         {
           nombre: 'Veimar Celis Meléndez',
-          cargo: 'Animación y producción audiovisual',
+          cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],

@@ -32,10 +32,10 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .cajon.color-primario.p-4.mb-4      
-          p Una manera de hacer mercadeo es a través del #[i marketing], el cual se define como la intersección de la empresa y el cliente, la fusión de los intereses propios de la empresa y las necesidades del comprador. En un nivel mucho más exhaustivo consiste en el proceso de comprender a sus clientes, construir y mantener relaciones con ellos. En fin, el mercadeo es la clave del éxito de una organización, independientemente de su tamaño. Podría decirse que todas las empresas necesitan marketing para tener éxito, después de todo como vende sus productos y servicios en el mercado si nadie los conoce.
+          p Una forma esencial de llevar a cabo el mercadeo es a través del <i>marketing</i>, definido como la intersección entre la empresa y el cliente; la convergencia de los intereses de la empresa con las necesidades del comprador. A un nivel más profundo, implica el proceso de comprender a los clientes, establecer y mantener relaciones sólidas con ellos. En última instancia, el mercadeo se convierte en la clave del éxito de cualquier organización, sin importar su tamaño. Podría decirse que todas las empresas necesitan del <i>marketing</i> para prosperar, ya que ¿cómo pueden vender sus productos y servicios en el mercado si nadie los conoce?"
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
-        p Una forma esencial de llevar a cabo el mercadeo es a través del <i>marketing</i>, definido como la intersección entre la empresa y el cliente; la convergencia de los intereses de la empresa con las necesidades del comprador. A un nivel más profundo, implica el proceso de comprender a los clientes, establecer y mantener relaciones sólidas con ellos. En última instancia, el mercadeo se convierte en la clave del éxito de cualquier organización, sin importar su tamaño. Podría decirse que todas las empresas necesitan del <i>marketing</i> para prosperar, ya que ¿cómo pueden vender sus productos y servicios en el mercado si nadie los conoce?"
+        p Así, la comprensión del mercadeo se adentra en el conocimiento profundo de los clientes, involucrando el compromiso de todos los trabajadores interesados en demostrar a los clientes potenciales su dedicación a resolver problemas reales. No se limitan a actuar como si les importara; realmente les importa, y esto se evidencia en sus acciones. Su enfoque genuino es ayudar a los clientes a mejorar sus vidas mediante contenido relevante, experiencias significativas y una pasión palpable. Y, si tienen la oportunidad, lo hacen a través de los productos o servicios que ofrecen.
 
         //- p Así, la comprensión del mercadeo se adentra en el conocimiento profundo de los clientes, involucrando el compromiso de todos los trabajadores interesados en demostrar a los clientes potenciales su dedicación a resolver problemas reales. No se limitan a actuar como si les importara; realmente les importa, y esto se evidencia en sus acciones. Su enfoque genuino es ayudar a los clientes a mejorar sus vidas mediante contenido relevante, experiencias significativas y una pasión palpable. Y, si tienen la oportunidad, lo hacen a través de los productos o servicios que ofrecen.
 
@@ -120,9 +120,12 @@
       span.titulo-herramientas #[i Marketing] tradicional
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-6
+      .col-lg-7.col-12
         p Hablar de lo convencional nos lleva a considerar el <i>marketing</i> tradicional, que comprende cualquier tipo de estrategia de <i>marketing</i> realizada sin el uso de Internet. Esto incluye anuncios publicados en periódicos impresos en lugar de en línea, noticias presentadas en revistas físicas en lugar de digitales, y el uso de correo postal en lugar de correo electrónico. Sin embargo, una de las herramientas más poderosas y efectivas en el <i>marketing</i> tradicional sigue siendo la publicidad televisiva, que tiene un alcance masivo.
         p Un ejemplo destacado de este enfoque es la promoción de cierta marca de cerveza, que cautivó a los espectadores con un anuncio de televisión que se convirtió en un fenómeno de la cultura popular. Esta campaña publicitaria recibió numerosos premios y generó un aumento significativo en las ventas. Esto ejemplifica el poder del <i>marketing</i> tradicional y cómo puede generar impacto a través de medios impresos y televisivos.
+      .col-lg-5.col-12
+        figure
+          img(src='@/assets/curso/temas/tema1/img114.png', alt='Imagen decorativa')
 
     .row.justify-content-center.mb-5
       .col-12.p-2
@@ -295,7 +298,7 @@
     .row.justify-content-center.mb-4
       .col-12.p-2.mb-3
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
-          h5 Tabla 1
+          h5 Tabla 1.
           span #[i Comparativo marketing tradicional vs marketing digital ]
       .tabla-a.color-acento-contenido.mb-4
         table
@@ -368,8 +371,7 @@
 
 
     Separador
-    .row
-      .col-xl-12
+    
     #t_1_1.titulo-segundo.color-primario(data-aos="zoom-in-left")
       h2 1.1 Riesgo empresarial
     
@@ -552,7 +554,7 @@
     .row
       .col-xl-12
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.2 Riesgo empresarial
+      h2 1.2 Riesgo empresarial
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6
@@ -847,7 +849,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-1 etapas de ciclo de vida de la industria
+                  h4.mb-1 Etapas de ciclo de vida de la industria
                   p.mb-0.text-small Un ejemplo que se puede presentar desde la etapas del ciclo de vida, es el que se relaciona en el siguiente anexo  
                 .col-sm-auto
                   a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Etapas del ciclo de vida.pdf')" target="_blank" type="application/pdf")
@@ -989,7 +991,7 @@
       .row.justify-content-center.mb-4
         .col-8.p-2
           .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
-            h5 Tabla 2
+            h5 Tabla 2.
             span #[i Matriz de las 4C ]
       
       .row.justify-content-center.align-items-center.mb-4
@@ -1074,7 +1076,7 @@
     .row.justify-content-center.mb-4
       .col-8.p-2
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
-          h5 Tabla 3
+          h5 Tabla 3.
           span #[i Matriz de las 4C del consumidor ]
     
     .row.justify-content-center.align-items-center.mb-4
@@ -1115,7 +1117,7 @@
     .row.justify-content-center.mb-4
       .col-8.p-2
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
-          h5 Tabla 4
+          h5 Tabla 4.
           span #[i Modelo de desarrollo del eslogan o propuesta de valor]
     
     .row.justify-content-center.align-items-center.mb-4
@@ -1147,11 +1149,11 @@
     .row
       .col-xl-12
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.3 Riesgo empresarial
+      h2 1.3 Riesgo empresarial
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
-        p El dinamismo económico del país ha llevado a los negocios a utilizar e implementar una palabra muy de moda durante la situación de emergencia sanitaria “reinventarse”, negocios que expandieron su línea de producto según la necesidad del consumidor y las circunstancias de salud por las que atravesó el mundo desde el año 2020, observa lo siguiente: 
+        p El dinamismo económico del país ha llevado a los negocios a utilizar e implementar una palabra muy de moda durante la situación de emergencia sanitaria “reinventarse”, negocios que expandieron su línea de producto según la necesidad del consumidor y las circunstancias de salud por las que atravesó el mundo desde el año 2020. 
     figure.mb-4
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/jsUkbvYBA40?si=eoSQWG7lYLW1Me37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -1479,12 +1481,15 @@
       span.titulo-herramientas Variables económicas
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3
-        figure
-          img(src='@/assets/curso/temas/tema1/img80.svg', alt='Imagen decorativa')
-      .col-lg-8
-        p El estudio de la economía se clasifica según su variabilidad en: la macroeconomía y la microeconomía. Para las empresas un análisis macro o micro puede ayudar con la toma de decisiones cuando se está pensando en expandir la producción o inserción en un nuevo mercado. A continuación, se detalla cada una de estas variables económicas:
-        p #[b La Macroeconomía:] Examina cómo se comporta la economía a gran escala, incluyendo factores que impactan el mercado, el producto interno bruto, la inflación, el crecimiento económico y las cifras de desempleo. Comprende cada uno de los elementos y cómo influyen entre sí para analizar el lugar que ocupa el negocio dentro del mercado. Los inversionistas utilizan la variable para planificar los futuros movimientos analizando cómo se comporta el Mercado.
+      .col-lg-10.col-12
+        .tarjeta.p-4(style="background-color: #E1EFE3")
+          .row.justify-content-center.align-items-center
+            .col-lg-3
+              figure
+                img(src='@/assets/curso/temas/tema1/img80.svg', alt='Imagen decorativa')
+            .col-lg-8
+              p El estudio de la economía se clasifica según su variabilidad en: la macroeconomía y la microeconomía. Para las empresas un análisis macro o micro puede ayudar con la toma de decisiones cuando se está pensando en expandir la producción o inserción en un nuevo mercado. A continuación, se detalla cada una de estas variables económicas:
+              p #[b La Macroeconomía:] Examina cómo se comporta la economía a gran escala, incluyendo factores que impactan el mercado, el producto interno bruto, la inflación, el crecimiento económico y las cifras de desempleo. Comprende cada uno de los elementos y cómo influyen entre sí para analizar el lugar que ocupa el negocio dentro del mercado. Los inversionistas utilizan la variable para planificar los futuros movimientos analizando cómo se comporta el Mercado.
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
@@ -1546,14 +1551,20 @@
             h4 Tasa representativa del mercado (TRM)
             p El promedio ponderado de las tasas de cambio de compra y venta de las operaciones realizadas el día hábil anterior por ciertos bancos comerciales y sociedades financieras en Bogotá, Cali, Barranquilla y Medellín, según lo calculado y publicado por la Superintendencia Bancaria de Colombia. Este dato se refleja en la página del banco de la república de Colombia.
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-12
-        p #[b La Microeconomía:] Analiza lo que sucede cuando los actores individuales toman decisiones financieras y cómo estas decisiones interactúan entre sí. Explora los factores que impulsan el comportamiento individual y empresarial, dividiendo las personas en grupos pequeños como propietarios de negocios, compradores y vendedores.
+      .col-lg-10
+        .tarjeta.p-4(style="background-color: #E1EFE3")
+          .row.justify-content-center.align-items-center
+            .col-lg-3
+              figure
+                img(src='@/assets/curso/temas/tema1/img115.svg', alt='Imagen decorativa')
+            .col-lg-8
+              p #[b La Microeconomía:] Analiza lo que sucede cuando los actores individuales toman decisiones financieras y cómo estas decisiones interactúan entre sí. Explora los factores que impulsan el comportamiento individual y empresarial, dividiendo las personas en grupos pequeños como propietarios de negocios, compradores y vendedores.
 
     Separador
     .row
       .col-xl-12
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.4 Estrategias de #[i marketing]
+      h2 1.4 Estrategias de #[i marketing]
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
@@ -1661,7 +1672,7 @@
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Metas u objetivos")
             .col-md-12.mb-4.mb-md-0
-              p.mb-0 Exprese lo que quiere lograr, a través de la generación de respuestas al como y el cuando, el tiempo que tardara en alcanzar los objetivos trazados y los recursos que demanda.
+              p.mb-0 Exprese lo que quiere lograr, a través de la generación de respuestas al cómo y el cuándo, el tiempo que tardará en alcanzar los objetivos trazados y los recursos que demanda.
           .row(numero="2" titulo="Mercado objetivo")
             .col-md-12.mb-4.mb-md-0
               p.mb-0 Enfóquese en quien importa, que para el caso son las personas compradoras, obtenga conocimiento de los clientes, sus necesidades, problemas y comportamientos de compra.
@@ -1676,10 +1687,10 @@
               p.mb-0 Concéntrese en los canales mas efectivos para involucrar, educar, entretener y nutrir a los clientes.
           .row(numero="6" titulo="Plan táctico")
             .col-md-12.mb-4.mb-md-0
-              p.mb-0 Enfoque un plan de ejecución táctica para guiar quien hace qué, cuándo y como, así como herramientas, procesos y mejores prácticas.
+              p.mb-0 Enfoque un plan de ejecución táctica para guiar quien hace qué, cuándo y cómo, así como herramientas, procesos y mejores prácticas.
           .row(numero="7" titulo="Métrica")
             .col-md-12.mb-4.mb-md-0
-              p.mb-0 Mida cómo se esta desempeñando el #[i marketing] en comparación con varios puntos de referencia, luego optimice para mejorar los resultados y el rendimiento.
+              p.mb-0 Mida cómo se está desempeñando el #[i marketing] en comparación con varios puntos de referencia, luego optimice para mejorar los resultados y el rendimiento.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
@@ -1769,7 +1780,7 @@
     .row
       .col-xl-12
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.5 Riesgo empresarial
+      h2 1.5 Riesgo empresarial
     
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
@@ -1935,7 +1946,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8
           figure
-            img(src='@/assets/curso/temas/tema1/tabla10.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/tabla10_.svg', alt='Texto que describa la imagen')
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         p Las anteriores preguntas giran en torno a los objetivos de la empresa y la finalidad que representa la encuesta, ya que todas las actividades de marketing deben girar entorno a la adquisición de clientes. La recolección de datos entrega la información necesaria sobre las capacidades del mercado para atraer nuevos servicios o productos para desarrollarlos en función del cliente.
