@@ -1941,12 +1941,15 @@
     .row.justify-content-center.mb-4
       .col-8.p-2
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
-          h5 Tabla 7.
+          h5 Figura 9.
           span #[i Modelo encuesta ]
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8
-          figure
-            img(src='@/assets/curso/temas/tema1/tabla10_.svg', alt='Texto que describa la imagen')
+        figure.desktop
+          img(src='@/assets/curso/temas/tema1/img116.svg', alt='Texto que describa la imagen')
+      .col-lg-12
+        figure.movil
+          img(src='@/assets/curso/temas/tema1/img116_.svg', alt='Texto que describa la imagen')
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         p Las anteriores preguntas giran en torno a los objetivos de la empresa y la finalidad que representa la encuesta, ya que todas las actividades de marketing deben girar entorno a la adquisición de clientes. La recolección de datos entrega la información necesaria sobre las capacidades del mercado para atraer nuevos servicios o productos para desarrollarlos en función del cliente.
