@@ -1946,10 +1946,10 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8
         figure.desktop
-          img(src='@/assets/curso/temas/tema1/img116.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img116.svg', alt='Imagen que relaciona una tabla que ejemplifica un modelo de encuesta, encontrando aspectos como género y preguntas sobre salud, si frecuenta el gimnasio, con qué regularidad lo hace, cuál es la hora preferida y el centro qué desea el entrevistado.')
       .col-lg-12
         figure.movil
-          img(src='@/assets/curso/temas/tema1/img116_.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img116_.svg', alt='Imagen que relaciona una tabla que ejemplifica un modelo de encuesta, encontrando aspectos como género y preguntas sobre salud, si frecuenta el gimnasio, con qué regularidad lo hace, cuál es la hora preferida y el centro qué desea el entrevistado.')
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         p Las anteriores preguntas giran en torno a los objetivos de la empresa y la finalidad que representa la encuesta, ya que todas las actividades de marketing deben girar entorno a la adquisición de clientes. La recolección de datos entrega la información necesaria sobre las capacidades del mercado para atraer nuevos servicios o productos para desarrollarlos en función del cliente.
