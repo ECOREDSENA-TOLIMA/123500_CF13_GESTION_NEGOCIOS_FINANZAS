@@ -51,25 +51,25 @@
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema1/img2.svg' alt='Imagen decorativa')
-        h2.text-center Análisis del precio
+        h4.text-center Análisis del precio
 
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color: #DBE5F3")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema1/img3.svg' alt='Imagen decorativa')
-        h2.text-center Propuesta de valor
+        h4.text-center Propuesta de valor
 
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color: #E1EFE3")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema1/img4.svg' alt='Imagen decorativa')
-        h2.text-center Análisis de la competencia
+        h4.text-center Análisis de la competencia
 
       .col-md-6.col-lg.tarjeta--tabla.p-4(style="background-color: #DBE5F3")
         .row.justify-content-center.mb-3
           .col-4
             img(src='@/assets/curso/temas/tema1/img5.svg' alt='Imagen decorativa')
-        h2.text-center Marca y producto
+        h4.text-center Marca y producto
                  
     //- .row.justify-content-center.bg4.align-items-center.mb-4.p-4
     //-   .col-lg-3.col-8.mb-4
@@ -167,46 +167,90 @@
         figure
           img(src='@/assets/curso/temas/tema1/img10.png', alt='Imagen decorativa')
     
-    .row.justify-content-center.align-items-center.mb-4      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
-        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 El #[i marketing] por mensajería postal
-              p Información impresa en folletos, catálogos y volantes que se envían por mensajería postal para llamar y atraer la atención del cliente.
-              br
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img11.png')})`}")      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
-        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 #[i Marketing] por teléfono
-              p Comúnmente llamado Telemercadeo porque incluye llamadas a los consumidores por teléfono.
-              br
-              br
-              br
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img12.png')})`}")      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
-        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 #[i Marketing] en papel
-              p Hace uno de impresiones que incluye anuncios en periódicos, boletines, revistas, folletos y otro material impreso para su distribución.
-              br
-              br
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img13.png')})`}")      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
-        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Transmisión
-              p Cuñas radiales, comerciales de radio y televisión. Siendo la televisión un gran paso a la tecnología de entretenimiento en publicidades ágiles.
-              br
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.png')})`}") 
+    .col-12.desktop
+      .row.justify-content-center.align-items-center.mb-4      
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
+          .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h5 El #[i marketing] por mensajería postal
+                p Información impresa en folletos, catálogos y volantes que se envían por mensajería postal para llamar y atraer la atención del cliente.
+                br
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img11.png')})`}")      
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
+          .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h5 #[i Marketing] por teléfono
+                p Comúnmente llamado Telemercadeo porque incluye llamadas a los consumidores por teléfono.
+                br
+                br
+                br
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img12.png')})`}")      
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
+          .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h5 #[i Marketing] en papel
+                p Hace uno de impresiones que incluye anuncios en periódicos, boletines, revistas, folletos y otro material impreso para su distribución.
+                br
+                br
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img13.png')})`}")      
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390
+          .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h5 Transmisión
+                p Cuñas radiales, comerciales de radio y televisión. Siendo la televisión un gran paso a la tecnología de entretenimiento en publicidades ágiles.
+                br
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.png')})`}") 
+      .h4.mb-4(data-aos="zoom-down-right")
+
+    .col-12.movil
+      .row.justify-content-center.align-items-center.mb-4      
+          .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-11
+            .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor.p-5
+                .tarjeta-slide__contenido.p-4.p-xl-5
+                  h5 El #[i marketing] por mensajería postal
+                  p Información impresa en folletos, catálogos y volantes que se envían por mensajería postal para llamar y atraer la atención del cliente.
+                  br
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img11.png')})`}")      
+          .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-11
+            .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor.p-5
+                .tarjeta-slide__contenido.p-4.p-xl-5
+                  h5 #[i Marketing] por teléfono
+                  p Comúnmente llamado Telemercadeo porque incluye llamadas a los consumidores por teléfono.
+                  br
+                  br
+                  br
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img12.png')})`}")      
+          .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-11
+            .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor.p-5
+                .tarjeta-slide__contenido.p-4.p-xl-5
+                  h5 #[i Marketing] en papel
+                  p Hace uno de impresiones que incluye anuncios en periódicos, boletines, revistas, folletos y otro material impreso para su distribución.
+                  br
+                  br
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img13.png')})`}")      
+          .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-11
+            .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor.p-5
+                .tarjeta-slide__contenido.p-4.p-xl-5
+                  h5 Transmisión
+                  p Cuñas radiales, comerciales de radio y televisión. Siendo la televisión un gran paso a la tecnología de entretenimiento en publicidades ágiles.
+                  br
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img14.png')})`}") 
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas #[i Marketing] digital
 
@@ -547,7 +591,7 @@
                   h4.mb-1 Anexo_ejemplo real de una matriz EFI
                   p.mb-0.text-small Factores internos clave
                 .col-sm-auto
-                  a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Matriz EFE.pdf')" target="_blank" type="application/pdf")
+                  a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Matriz de EFI.pdf')" target="_blank" type="application/pdf")
                     span Descargar
                     i.fas.fa-file-download
     Separador
@@ -1288,7 +1332,7 @@
           span #[i Datos sobre el déficit público en Colombia.]
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10.desktop
+      .col-lg-10
         figure
           img(src='@/assets/curso/temas/tema1/img75.svg', alt='')
     .row.justify-content-center.align-items-center.mb-4
@@ -1376,8 +1420,8 @@
                   p.mb-0.text-small Tiene el propósito de mostrarle la participación del país por sectores económicos, además de suministrar los resultados para que tenga un panorama más amplio de las actividades económicas que se fortalecen en el país.
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://www.dane.gov.co/index.php/estadisticas-por-tema/comercio-interno/censo-economico-de-colombia/conteo-de-unidades-economicas-2021" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+                    span Enlace
+                    i.fas.fa-link
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Actualidad del mercado
 
@@ -1729,49 +1773,96 @@
       .col-lg-12
         p En el negocio y las diferentes estrategias que se pueden implementar se presentan elementos como:
 
-    .row.justify-content-center.align-items-center.mb-4      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-9
-        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Las ventas
-              p Instituye las fortalezas para vender, las ventajas que ofrece el negocio por la compra, determina que clientes son potenciales y a cuáles hay que dejar seguir. Las ventas facilitan información importante sobre el plan en el campo.
-              br
-              br
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img83.png')})`}")      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-9
-        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Las operaciones
-              p Si la estrategia es de bajo costo, por ende, las operaciones deben eliminar los costos del producto. Si está ofreciendo un flujo de nuevos productos, por ende, las operaciones deben tener la flexibilidad y la práctica para hacerlo de manera rentable.
-              
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img84.png')})`}")      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-9
-        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 La investigación
-              p Estipula la necesidad de desarrollar o no nuevos productos continuamente y los lineamientos de estos productos, también entrega información de líneas de tiempo cruciales para los lanzamientos de productos.
-              br
-              br
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img85.png')})`}")      
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-9
-        .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h5 Finanzas
-              p Garantiza que se realice un seguimiento y monitoreo a los indicadores de medida para proporcionar el análisis adecuado sobre el éxito de la estrategia.
-              br
-              br
-              br
-              br
-              br
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img86.png')})`}")
+    .col-12.desktop
+      .row.justify-content-center.align-items-center.mb-4      
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-9
+          .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h5 Las ventas
+                p Instituye las fortalezas para vender, las ventajas que ofrece el negocio por la compra, determina que clientes son potenciales y a cuáles hay que dejar seguir. Las ventas facilitan información importante sobre el plan en el campo.
+                br
+                br
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img83.png')})`}")      
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-9
+          .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h5 Las operaciones
+                p Si la estrategia es de bajo costo, por ende, las operaciones deben eliminar los costos del producto. Si está ofreciendo un flujo de nuevos productos, por ende, las operaciones deben tener la flexibilidad y la práctica para hacerlo de manera rentable.
+                
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img84.png')})`}")      
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-9
+          .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h5 La investigación
+                p Estipula la necesidad de desarrollar o no nuevos productos continuamente y los lineamientos de estos productos, también entrega información de líneas de tiempo cruciales para los lanzamientos de productos.
+                br
+                br
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img85.png')})`}")      
+        .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-9
+          .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h5 Finanzas
+                p Garantiza que se realice un seguimiento y monitoreo a los indicadores de medida para proporcionar el análisis adecuado sobre el éxito de la estrategia.
+                br
+                br
+                br
+                br
+                br
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img86.png')})`}")
+      
+    .col-12.movil 
+      .row.justify-content-center.align-items-center.mb-4      
+          .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-9
+            .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__contenido.p-4.p-xl-5
+                  h5 Las ventas
+                  p Instituye las fortalezas para vender, las ventajas que ofrece el negocio por la compra, determina que clientes son potenciales y a cuáles hay que dejar seguir. Las ventas facilitan información importante sobre el plan en el campo.
+                  br
+                  br
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img83.png')})`}")      
+          .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-9
+            .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__contenido.p-4.p-xl-5
+                  h5 Las operaciones
+                  p Si la estrategia es de bajo costo, por ende, las operaciones deben eliminar los costos del producto. Si está ofreciendo un flujo de nuevos productos, por ende, las operaciones deben tener la flexibilidad y la práctica para hacerlo de manera rentable.
+                  
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img84.png')})`}")      
+          .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-9
+            .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__contenido.p-4.p-xl-5
+                  h5 La investigación
+                  p Estipula la necesidad de desarrollar o no nuevos productos continuamente y los lineamientos de estos productos, también entrega información de líneas de tiempo cruciales para los lanzamientos de productos.
+                  br
+                  br
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img85.png')})`}")      
+          .col-sm-6.col-xl-3.mb-4.mb-xl-0.h390.col-9
+            .tarjeta.tarjeta-slide.arriba.bg2(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__contenido.p-4.p-xl-5
+                  h5 Finanzas
+                  p Garantiza que se realice un seguimiento y monitoreo a los indicadores de medida para proporcionar el análisis adecuado sobre el éxito de la estrategia.
+                  br
+                  br
+                  br
+                  br
+                  br
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img86.png')})`}")
+
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         p Por ende, la estrategia de #[i marketing] impulsará la estrategia en los demás departamentos de una empresa que está orientada a crecer de manera rentable. La estrategia de #[i marketing] es mucho más grande, ya que se instaura para toda la organización, puesto que contiene las claves de la ventaja competitiva y del crecimiento rentable.
