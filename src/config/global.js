@@ -177,12 +177,12 @@ export default {
     {
       referencia:
         'Banco de la República de Colombia (2022). Variables macroeconómicas. Disponible en:',
-      link: 'https://www.banrep.gov.co/es',
+      link: 'https://www.banrep.gov.co/es/tags/variables-macroeconomicas',
     },
     {
       referencia:
-        'Banco Mundial (2022). Exportaciones e importaciones actuales. Disponible en',
-      link: 'https://www.banrep.gov.co/es',
+        'Banco Mundial (2022). Exportaciones e importaciones actuales.',
+      link: '',
     },
     {
       referencia:
