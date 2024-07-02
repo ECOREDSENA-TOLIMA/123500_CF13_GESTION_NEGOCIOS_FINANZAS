@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen decorativa")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Esquema que detalla de manera resumida la temática tratada durante este componente formativo, destacando que dentro de las herramientas de análisis en el mercado, deben haber variables, matrices de soporte, estudio del entorno, estrategias marketing y también, herramientas de recolección de información (entrevistas, encuestas).")
       .col-auto(data-aos="fade-left")
         a.anexo.mb-4(:href="obtenerLink('/downloads/anexo_sintesis.pdf')" target="_blank")
           .anexo__icono

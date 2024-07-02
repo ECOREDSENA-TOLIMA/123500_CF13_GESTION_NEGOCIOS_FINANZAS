@@ -28,11 +28,11 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
-        p Para muchos especialistas dedicados al mercadeo, también conocido como <i>marketing</i>, este solía limitarse a anuncios, folletos o comunicados de prensa. Sin embargo, en la actualidad, con la proliferación de las redes sociales, el <i>marketing</i> ha experimentado una transformación notable. Ahora, una estrategia efectiva de <i>marketing</i> se materializa a través de plataformas como Instagram, Twitter o Facebook, donde se destacan las virtudes del producto y se brinda acceso directo al cliente mientras navega por sus redes sociales.
+        p Para muchos especialistas dedicados al mercadeo, también conocido como <i>marketing</i>, este solía limitarse a anuncios, folletos o comunicados de prensa. Sin embargo, en la actualidad, con la proliferación de las redes sociales, el <i>marketing</i> ha experimentado una transformación notable. Ahora, una estrategia efectiva de <i>marketing</i> se materializa a través de plataformas como Instagram, X o Facebook, donde se destacan las virtudes del producto y se brinda acceso directo al cliente mientras navega por sus redes sociales.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .cajon.color-primario.p-4.mb-4      
-          p Una forma esencial de llevar a cabo el mercadeo es a través del <i>marketing</i>, definido como la intersección entre la empresa y el cliente; la convergencia de los intereses de la empresa con las necesidades del comprador. A un nivel más profundo, implica el proceso de comprender a los clientes, establecer y mantener relaciones sólidas con ellos. En última instancia, el mercadeo se convierte en la clave del éxito de cualquier organización, sin importar su tamaño. Podría decirse que todas las empresas necesitan del <i>marketing</i> para prosperar, ya que ¿cómo pueden vender sus productos y servicios en el mercado si nadie los conoce?"
+          p Una forma esencial de llevar a cabo el mercadeo es a través del <i>marketing</i>, definido como la intersección entre la empresa y el cliente; la convergencia de los intereses de la empresa con las necesidades del comprador. A un nivel más profundo, implica el proceso de comprender a los clientes, establecer y mantener relaciones sólidas con ellos. En última instancia, el mercadeo se convierte en la clave del éxito de cualquier organización, sin importar su tamaño. Podría decirse que todas las empresas necesitan del <i>marketing</i> para prosperar, ya que ¿cómo pueden vender sus productos y servicios en el mercado si nadie los conoce?
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         p Así, la comprensión del mercadeo se adentra en el conocimiento profundo de los clientes, involucrando el compromiso de todos los trabajadores interesados en demostrar a los clientes potenciales su dedicación a resolver problemas reales. No se limitan a actuar como si les importara; realmente les importa, y esto se evidencia en sus acciones. Su enfoque genuino es ayudar a los clientes a mejorar sus vidas mediante contenido relevante, experiencias significativas y una pasión palpable. Y, si tienen la oportunidad, lo hacen a través de los productos o servicios que ofrecen.
@@ -279,7 +279,7 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Redes sociales")
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-10
-            h4 Redes sociales (Instagram, Twitter, Facebook)
+            h4 Redes sociales (Instagram, X, Facebook)
             p Tipo de #[i marketing] que se utiliza para establecer relaciones con los clientes existentes y llegar a un público más amplio a través de la voz a voz digital.
           .col-lg-2
             figure
@@ -296,7 +296,7 @@
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-10
             h4 #[i Influencers] (Personas reconocidas en el medio social)
-            p Tipo de #[i marketing] que analiza la cantidad de seguidores en una cuenta de perfil. Usa persona con un perfil alto y con un acervo de seguidores en los diferentes canales de la redes sociales que posee para promocionar un producto o servicio.
+            p Tipo de #[i marketing] que analiza la cantidad de seguidores en una cuenta de perfil. Usa persona con un perfil alto y con un acervo de seguidores en los diferentes canales de las redes sociales que posee para promocionar un producto o servicio.
           .col-lg-2
             figure
               img(src='@/assets/curso/temas/tema1/img19.svg', alt='Imagen decorativa')
@@ -372,7 +372,7 @@
                       | Los medios acertaban la caja de herramientas para difundir el mensaje.
                     li
                       i.fas.fa-circle
-                      | Un comunicado de prensa fue la herramienta principal
+                      | Un comunicado de prensa fue la herramienta principal.
                     li
                       i.fas.fa-circle
                       | Solo las noticias significativas llaman la atención del medio.
@@ -384,10 +384,10 @@
                   ul.lista-ul
                     li
                       i.fas.fa-circle
-                      | Crear mensajes convincentes y publicarlos en internet
+                      | Crear mensajes convincentes y publicarlos en internet.
                     li
                       i.fas.fa-circle
-                      | Los clientes quieren autenticidad
+                      | Los clientes quieren autenticidad.
                     li
                       i.fas.fa-circle
                       | Los clientes quieren contenido que sorprenda y satisfaga la necesidad de su escucha.
@@ -402,13 +402,13 @@
                       | El contenido permanece en línea, sin fin de la campaña.
                     li
                       i.fas.fa-circle
-                      | Venta de productos digitales
+                      | Venta de productos digitales.
                     li
                       i.fas.fa-circle
-                      | Suscripciones y pagos accesibles
+                      | Suscripciones y pagos accesibles.
                     li
                       i.fas.fa-circle
-                      | Facilidad de comunicación con su audiencia
+                      | Facilidad de comunicación con su audiencia.
             tr
               td Herramientas del <i>marketing</i> tradicional: radio, televisión, periódicos, revistas, correo postal.
               td Herramientas del <i>marketing</i> moderno: sitios web, <i>blogs</i>, redes sociales, videos, <i>podcasts</i>
@@ -417,7 +417,7 @@
     Separador
     
     #t_1_1.titulo-segundo.color-primario(data-aos="zoom-in-left")
-      h2 1.1 Riesgo empresarial
+      h2 1.1 Variables de análisis
     
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
@@ -468,7 +468,7 @@
                 img(src='@/assets/curso/temas/tema1/img27.png', alt='Imagen decorativa')
             .col-md-6.mb-4.mb-md-0
               h4 Asigne a cada factor una ponderación o peso
-              p la estimación indica la importancia de este factor en la industria para alcanzar el éxito. 
+              p La estimación indica la importancia de este factor en la industria para alcanzar el éxito. 
           .row(titulo="")
             .col-md-6.mb-4.mb-md-0
               h4 Asigne una puntuación de 1 a 4 para cada factor externo
@@ -494,7 +494,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         p Para comprenderla se tiene presente como la puntuación ponderada límite posible es 4,0 y la más baja es 1,0. Si realizada la práctica su ponderación total es de 4,0, el resultado es que la empresa está haciendo un buen trabajo con las oportunidades existentes en la industria, está haciendo efectivo con las estrategias que existen aprovechando la oportunidad. Si en la práctica la ponderación total es de 1,0 quiere decir que las estrategias de la empresa no evitan ni bloquean los riesgos externos y adicional a ello, ha desperdiciado las oportunidades del contexto externo.
-        p A continuación, se presenta un ejemplo real de una matriz EFE, tenga presente la información suministrada anteriormente, ya que serán los detalles y pautas que nos permiten la realización adecuada de la matriz. La empresa a la cual se le identificaron los factores claves que se describen a continuación se dedica a la comercialización de equipos de cómputo, este negocio es reconocido en el mercado, es decir, su marca es representativa para los consumidores, 
+        p A continuación, se presenta un ejemplo real de una matriz EFE, tenga presente la información suministrada anteriormente, ya que serán los detalles y pautas que nos permiten la realización adecuada de la matriz. La empresa a la cual se le identificaron los factores claves que se describen a continuación se dedica a la comercialización de equipos de cómputo, este negocio es reconocido en el mercado, es decir, su marca es representativa para los consumidores. 
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -534,15 +534,15 @@
           .col-lg-8.col-12
             .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
               h5 Figura 2.
-              span #[i valores en la clasificación de la matriz EFI]
+              span #[i Valores en la clasificación de la matriz EFI]
     
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-8.desktop
             figure
-              img(src='@/assets/curso/temas/tema1/img33.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema1/img33.svg', alt='Imagen que relaciona la valoración de la matriz EFI, la cual se representa así: 1=Mayor debilidad, 2=Menor debilidad, 3=Menor fortaleza, 4=Mayor fortaleza.')
           .col-lg-8.movil
             figure
-              img(src='@/assets/curso/temas/tema1/img33-1.svg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema1/img33-1.svg', alt='Imagen que relaciona la valoración de la matriz EFI, la cual se representa así: 1=Mayor debilidad, 2=Menor debilidad, 3=Menor fortaleza, 4=Mayor fortaleza.')
 
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-12
@@ -598,7 +598,7 @@
     .row
       .col-xl-12
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 1.2 Riesgo empresarial
+      h2 1.2 Matrices de soporte
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6
@@ -722,10 +722,10 @@
     .row.justify-content-center.mb-4
       .col-lg-8.desktop
         figure
-          img(src='@/assets/curso/temas/tema1/tabla2.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/tabla2.svg', alt='Imagen que relaciona la matriz de variables críticas, donde relaciona en diferentes colores los sectores y el tipo de nivel.')
       .col-lg-8.movil
         figure
-          img(src='@/assets/curso/temas/tema1/tabla2_.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/tabla2_.svg', alt='Imagen que relaciona la matriz de variables críticas, donde relaciona en diferentes colores los sectores y el tipo de nivel.')
     
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas La Matriz de política direccional de Shell (DPM) 
@@ -940,14 +940,14 @@
       .col-10.p-2
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
           h5 Figura 5.
-          span #[i Matriz de Igor Ansoff ]
+          span #[i Matriz de Igor Ansoff]
 
       .col-lg-10.desktop
         figure
-          img(src='@/assets/curso/temas/tema1/img104.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img104.svg', alt='Imagen que relaciona un ejemplo aplicado en la Matriz de Igor Ansoff  relacionado con los mercados existentes.')
       .col-lg-12.movil
         figure
-          img(src='@/assets/curso/temas/tema1/img104_.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img104_.svg', alt='Imagen que relaciona un ejemplo aplicado en la Matriz de Igor Ansoff  relacionado con los mercados existentes.')
     
     //- .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -1098,7 +1098,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img107.svg', alt='')
               .col-lg-10.col-7
-                p omodidad para comprar: acceso al producto en cualquier momento, en cualquier lugar y de cualquier forma. Dicho en otras palabras, es que puedas obtener el producto cuando lo desees porque lo consigues en cualquier sitio, no hay restricciones de horarios, como suele suceder con algunos servicios.
+                p Comodidad para comprar: acceso al producto en cualquier momento, en cualquier lugar y de cualquier forma. Dicho en otras palabras, es que puedas obtener el producto cuando lo desees porque lo consigues en cualquier sitio, no hay restricciones de horarios, como suele suceder con algunos servicios.
               hr
               .col-lg-2.col-5
                 figure
@@ -1193,7 +1193,7 @@
     .row
       .col-xl-12
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 1.3 Riesgo empresarial
+      h2 1.3 Análisis del entorno
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
@@ -1316,11 +1316,11 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.desktop
         figure
-          img(src='@/assets/curso/temas/tema1/img74.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img74.svg', alt='Imagen que relaciona unos datos estadísticos sobre el déficit de cuenta en Colombia.')
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.movil
         figure
-          img(src='@/assets/curso/temas/tema1/img74_.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img74_.svg', alt='Imagen que relaciona unos datos estadísticos sobre el déficit de cuenta en Colombia.')
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         p El déficit público de Colombia sigue siendo motivo de preocupación para el gobierno y los inversores. Las medidas fiscales de Colombia para mitigar la pandemia iniciada en el 2020 han sido efectivas para impulsar la actividad económica que se ha recuperado gradualmente en el año 2021 y lo que se lleva del 2022, observa la siguiente infografía.
@@ -1334,7 +1334,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         figure
-          img(src='@/assets/curso/temas/tema1/img75.svg', alt='')
+          img(src='@/assets/curso/temas/tema1/img75.svg', alt='Imagen que relaciona unos datos estadísticos sobre el déficit público en Colombia.')
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.movil
         a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo - Distribución  de  Micronegocios según actividad económica - CIIU Rev. 4.pdf')" target="_blank")
@@ -1519,7 +1519,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
-        p En el mes de febrero del año 2022 se desaceleró rudamente el crecimiento anual de las ventas minoristas en nuestro país. Fue la expansión más lenta del sector minorista a un 4,9 % comparado con los cinco meses anteriores en un alza 21 %. Las contribuciones de ventas más importantes se registran en el combustible, los respuestas, accesorios y lubricantes para vehículos. Asimismo, en el sector textil. En cambio, los sectores que disminuyeron sus ventas se identifican en el área de vehículos, motos, alimentos, electrodomésticos y muebles.
+        p En el mes de febrero del año 2022 se desaceleró rudamente el crecimiento anual de las ventas minoristas en nuestro país. Fue la expansión más lenta del sector minorista a un 4,9 % comparado con los cinco meses anteriores en un alza 21 %. Las contribuciones de ventas más importantes se registran en el combustible, los repuestos, accesorios y lubricantes para vehículos. Asimismo, en el sector textil. En cambio, los sectores que disminuyeron sus ventas se identifican en el área de vehículos, motos, alimentos, electrodomésticos y muebles.
 
     .h4.mb-4(data-aos="zoom-down-right")
       span.titulo-herramientas Variables económicas
@@ -1722,7 +1722,7 @@
               p.mb-0 Enfóquese en quien importa, que para el caso son las personas compradoras, obtenga conocimiento de los clientes, sus necesidades, problemas y comportamientos de compra.
           .row(numero="3" titulo="Análisis")
             .col-md-12.mb-4.mb-md-0
-              p.mb-0 Realice una análisis de la situación en donde pueda evaluar el rendimiento de #[i marketing] propuesto. Revise y evalue las fortalezas y debilidades de la competencia.
+              p.mb-0 Realice un análisis de la situación en donde pueda evaluar el rendimiento de #[i marketing] propuesto. Revise y evalue las fortalezas y debilidades de la competencia.
           .row(numero="4" titulo="Propuesta")
             .col-md-12.mb-4.mb-md-0
               p.mb-0 Cree propuestas de valor, declaraciones de visión y misiones para contar y compartir su historia.
@@ -1871,7 +1871,7 @@
     .row
       .col-xl-12
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 1.5 Riesgo empresarial
+      h2 1.5 Herramientas de recolección de información
     
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
@@ -1899,10 +1899,10 @@
           span #[i Entrevistas]
       .col-lg-10.desktop
         figure
-          img(src='@/assets/curso/temas/tema1/img88.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/img88.svg', alt='Imagen que relaciona lo que representa una entrevista y los tipos que hay: abiertas y cerradas.')
       .col-lg-10.movil
         figure
-          img(src='@/assets/curso/temas/tema1/img88-1.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/img88-1.svg', alt='Imagen que relaciona lo que representa una entrevista y los tipos que hay: abiertas y cerradas.')
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
