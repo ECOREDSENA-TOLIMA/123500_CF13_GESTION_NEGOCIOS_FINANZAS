@@ -411,7 +411,7 @@
                       | Facilidad de comunicación con su audiencia.
             tr
               td Herramientas del <i>marketing</i> tradicional: radio, televisión, periódicos, revistas, correo postal.
-              td Herramientas del <i>marketing</i> moderno: sitios web, <i>blogs</i>, redes sociales, videos, <i>podcasts</i>
+              td Herramientas del <i>marketing</i> moderno: sitios web, <i>blogs</i>, redes sociales, videos, <i>podcasts</i>.
 
 
     Separador

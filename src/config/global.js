@@ -181,7 +181,7 @@ export default {
     },
     {
       referencia:
-        'Banco Mundial (2022). Exportaciones e importaciones actuales.',
+        'Banco Mundial (2022). Exportaciones e importaciones actuales. Grupo Banco Mundial.',
       link: '',
     },
     {
@@ -198,8 +198,8 @@ export default {
     },
     {
       referencia:
-        'Organización Mundial de Comercio (2020). OMC. Estadísticas comerciales. Disponible en:',
-      link: 'https://www.wto.org/indexsp.htm',
+        'Organización Mundial de Comercio. (2020). OMC. Estadísticas comerciales. OMC.',
+      link: '',
     },
   ],
   creditos: [
